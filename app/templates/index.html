@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Are AI answers citing your website?</h1>
+  <p class="lead">Buyers now ask AI assistants instead of searching. CiteCheck asks the AI the questions your buyers ask, shows which websites it cites, and explains what to change so yours is one of them.</p>
+  {% if has_demo %}<p><a class="btn ghost" href="/demo">See an example report →</a></p>{% endif %}
+</section>
+
+<div class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-tab="quick" id="tab-quick">Quick check</button>
+  <button role="tab" aria-selected="false" data-tab="report" id="tab-report">Full report</button>
+  <button role="tab" aria-selected="false" data-tab="paste" id="tab-paste">Paste an AI answer</button>
+</div>
+
+<section class="panel" data-panel="quick">
+  <p class="hint">One question, one answer, about 10 seconds.</p>
+  <form id="quick-form" class="form">
+    <label>Your website <input name="site" placeholder="yourcompany.com" required autocomplete="url"></label>
+    <label>A question a buyer might ask an AI <input name="question" placeholder="best platform for hands-on tech labs for enterprises" required minlength="3" maxlength="300"></label>
+    <button class="btn" type="submit">Check</button>
+  </form>
+  <div id="quick-result" class="result" aria-live="polite"></div>
+</section>
+
+<section class="panel" data-panel="report" hidden>
+  <p class="hint">Asks up to {{ max_questions }} buyer questions{% if runs > 1 %}, {{ runs }} times each (AI answers vary){% endif %}, then checks your site and compares your pages with the ones that got cited. Takes 2–5 minutes.</p>
+  <form id="report-form" class="form">
+    <label>Your website <input name="site" placeholder="yourcompany.com" required></label>
+    <div class="row-between">
+      <span class="label">Buyer questions (one per line, or leave empty and we'll write them)</span>
+      <button class="btn small ghost" type="button" id="suggest-btn">Suggest questions</button>
+    </div>
+    <textarea name="questions" rows="6" placeholder="best enterprise AI upskilling platform&#10;how to run hands-on GenAI labs for employees"></textarea>
+    <label>Competitors (optional, comma separated) <input name="competitors" placeholder="pluralsight.com, udemy.com"></label>
+    <button class="btn" type="submit">Build report</button>
+  </form>
+  <div id="report-status" class="result" aria-live="polite"></div>
+</section>
+
+<section class="panel" data-panel="paste" hidden>
+  <p class="hint">For ChatGPT, Perplexity, Copilot or Claude: ask your question in the app, copy the whole answer with its sources, and paste it here. Free, and it uses the real answer.</p>
+  <form id="paste-form" class="form">
+    <label>Your website <input name="site" placeholder="yourcompany.com" required></label>
+    <label>Which AI was it? <input name="engine_label" placeholder="ChatGPT" maxlength="60"></label>
+    <label>The question you asked (optional) <input name="question" maxlength="300"></label>
+    <label>The answer, with source links <textarea name="text" rows="8" required></textarea></label>
+    <button class="btn" type="submit">Analyse answer</button>
+  </form>
+  <div id="paste-result" class="result" aria-live="polite"></div>
+</section>
+
+<section class="how">
+  <h2>How it works</h2>
+  <ol>
+    <li><strong>Ask.</strong> Your buyer questions go to an AI answer engine that searches the web and cites its sources, the way Perplexity and ChatGPT search do.</li>
+    <li><strong>Count.</strong> Every cited source is recorded. Your visibility score is the share of answers that cite your site. We also check whether your site was in the search results at all, and whether the AI names you from memory.</li>
+    <li><strong>Check.</strong> Can AI crawlers read your site at all? We check robots.txt, noindex, canonicals and pages that need JavaScript.</li>
+    <li><strong>Compare.</strong> The pages that got cited are compared with yours: direct answers, numbers, headings, freshness, sources.</li>
+    <li><strong>Fix and re-check.</strong> You get a ranked fix list. Make the changes, run it again, and compare the two reports.</li>
+  </ol>
+</section>
+{% endblock %}

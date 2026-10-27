@@ -1,0 +1,2909 @@
+{
+ "id": "k5Hh1mHDVAE",
+ "site": "https://freecodecamp.org",
+ "domain": "freecodecamp.org",
+ "created_at": "2026-10-27T16:02:35.813007Z",
+ "status": "done",
+ "progress": 1.0,
+ "message": "Done",
+ "engine": "open engine (Tavily search + openai/gpt-oss-120b)",
+ "simulated": false,
+ "runs_per_question": 1,
+ "questions": [
+  "What are the best free coding platforms for beginners?",
+  "How to choose a free online programming course?",
+  "Free web development tutorials vs paid bootcamps comparison?",
+  "Is there a free curriculum for learning JavaScript?",
+  "Which free coding resources cover full-stack development?",
+  "Can I get a certification from a free coding site?",
+  "How long does it take to become a web developer using free resources?",
+  "What are the pricing options for free coding courses with optional upgrades?",
+  "Best free coding practice challenges for algorithm skills?",
+  "How to stay motivated while learning to code for free?"
+ ],
+ "competitors": [
+  "coddy.tech",
+  "codecademy.com",
+  "scrimba.com",
+  "boot.dev",
+  "modernagecoders.com"
+ ],
+ "visibility_score": 50.0,
+ "questions_cited": 5,
+ "questions_retrieved": 5,
+ "memory": [
+  {
+   "question": "What are the best free coding platforms for beginners?",
+   "model": "gemini-3.5-flash-lite",
+   "answer": "Here are the best free coding platforms for beginners, ranked by relevance:\n\n1. **freeCodeCamp**: The top recommendation for self-taught beginners. It offers a completely free, interactive curriculum ranging from web development to data science, complete with certifications and hands-on projects.\n2. **Codecademy**: Known for its beginner-friendly, bite-sized lessons. While it has a paid tier, its free basic plan is excellent for getting hands-on practice directly in your browser with languages like Python, HTML/CSS, and JavaScript.\n3. **The Odin Project**: A fantastic, open-source, and entirely free curriculum for aspiring web developers. It guides you from absolute zero to building full-stack applications using real-world tools.\n4. **Khan Academy**: Ideal for younger learners or absolute novices. It offers free, gentle introductions to programming, computer science principles, and JavaScript through drawing and animation. \n5. **Scratch**: Developed by MIT, this visual, block-based coding platform is the absolute best starting point for understanding fundamental logic without syntax frustration.",
+   "mentioned": true,
+   "error": null
+  },
+  {
+   "question": "How to choose a free online programming course?",
+   "model": "gemini-3.5-flash-lite",
+   "answer": "To choose a free online programming course, first define your goal: career change, hobby, or specific skill? Then, match your learning style.\n\n**1. edX / Coursera**\nBest for university-style learning. They offer free \"audit\" modes for courses from top schools like Harvard (e.g., CS50) and MIT. Ideal if you want structured, academic depth.\n\n**2. freeCodeCamp**\nBest for hands-on web development. It’s entirely free, interactive, and project-based. You code right in the browser and build a portfolio.\n\n**3. Codecademy**\nGreat for absolute beginners testing the waters. The free tier offers interactive, bite-sized lessons in Python, JavaScript, and more. \n\n**4. YouTube**\nBest for specific, up-to-date technologies. Channels like *Programming with Mosh*, *Traversy Media*, and *The Net Ninja* offer comprehensive, free crash courses.\n\n**Tips:** Check reviews, ensure the curriculum is recent, and pick *one* resource to avoid tutorial hell.",
+   "mentioned": true,
+   "error": null
+  },
+  {
+   "question": "Free web development tutorials vs paid bootcamps comparison?",
+   "model": "gemini-3.5-flash-lite",
+   "answer": "**Free Web Development Tutorials** offer maximum flexibility and zero cost, ideal for self-motivated learners. However, they lack structure and mentorship. \n*   *Recommendations:* **freeCodeCamp** (best for interactive, broad learning), **The Odin Project** (best rigorous, project-based full-stack curriculum), and **YouTube** channels like Traversy Media or Net Ninja.\n\n**Paid Bootcamps** provide structured roadmaps, peer accountability, mentorship, and career services, but cost thousands of dollars.\n*   *Recommendations:* **Le Wagon** (immersive, strong global community), **App Academy** (rigorous software engineering), and **Springboard** (flexible with a job guarantee).\n\n**Verdict:** Choose free resources if you are disciplined and on a budget. Choose a paid bootcamp if you need structured accountability, direct feedback, and career transition support in a compressed timeline.",
+   "mentioned": true,
+   "error": null
+  },
+  {
+   "question": "Is there a free curriculum for learning JavaScript?",
+   "model": "gemini-3.5-flash-lite",
+   "answer": "Yes, there are several fantastic, completely free JavaScript curricula. Here are the most relevant:\n\n1. **The Odin Project**: A comprehensive, open-source full-stack curriculum. Its JavaScript path is rigorous, project-based, and teaches you how to build real applications from scratch.\n2. **freeCodeCamp**: An interactive, highly structured platform. It offers a dedicated JavaScript Algorithms and Data Structures certification, letting you write code directly in your browser.\n3. **JavaScript.info**: The gold standard for reference and deep-dives. While it’s structured like a modern textbook rather than a traditional interactive course, it takes you from absolute basics to advanced concepts for free.\n4. **MDN Web Docs (Mozilla)**: Not a structured curriculum per se, but the definitive documentation for JavaScript. Their \"JavaScript guide\" is essential reading alongside any course. \n\nI recommend starting with **freeCodeCamp** for quick syntax practice, then transitioning to **The Odin Project** for project-building.",
+   "mentioned": true,
+   "error": null
+  },
+  {
+   "question": "Which free coding resources cover full-stack development?",
+   "model": "gemini-3.5-flash-lite",
+   "answer": "Here are the best free resources for full-stack development, ranked by relevance:\n\n1. **The Odin Project:** A gold standard for full-stack learning. It offers a completely free, open-source, project-based curriculum covering HTML, CSS, JavaScript, Node.js, and Ruby on Rails.\n2. **freeCodeCamp:** Highly structured and interactive. It provides free certifications spanning responsive web design, JavaScript algorithms, front-end libraries, and back-end APIs with Node.js.\n3. **fullstackopen.com (University of Helsinki):** An exceptional, modern course focusing on React, Redux, Node.js, MongoDB, GraphQL, and TypeScript.\n4. **MDN Web Docs (Mozilla):** While not a course, it is the ultimate free reference guide for all web developers, offering deep-dive tutorials on HTML, CSS, and JavaScript.\n5. **YouTube:** Channels like *Traversy Media*, *Programming with Mosh*, and *freeCodeCamp.org* host comprehensive, zero-cost full-stack crash courses and project walkthroughs.",
+   "mentioned": true,
+   "error": null
+  }
+ ],
+ "domain_stats": [
+  {
+   "domain": "freecodecamp.org",
+   "runs_cited": 5,
+   "questions_cited": 5,
+   "citation_rate": 0.5,
+   "share_of_voice": 0.08620689655172414,
+   "avg_position": 2.8,
+   "is_own": true,
+   "is_third_party": false
+  },
+  {
+   "domain": "coddy.tech",
+   "runs_cited": 4,
+   "questions_cited": 4,
+   "citation_rate": 0.4,
+   "share_of_voice": 0.08620689655172414,
+   "avg_position": 3.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "codecademy.com",
+   "runs_cited": 4,
+   "questions_cited": 4,
+   "citation_rate": 0.4,
+   "share_of_voice": 0.06896551724137931,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "reddit.com",
+   "runs_cited": 3,
+   "questions_cited": 3,
+   "citation_rate": 0.3,
+   "share_of_voice": 0.05172413793103448,
+   "avg_position": 5.33,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "scrimba.com",
+   "runs_cited": 3,
+   "questions_cited": 3,
+   "citation_rate": 0.3,
+   "share_of_voice": 0.05172413793103448,
+   "avg_position": 2.33,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "facebook.com",
+   "runs_cited": 2,
+   "questions_cited": 2,
+   "citation_rate": 0.2,
+   "share_of_voice": 0.05172413793103448,
+   "avg_position": 1.5,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "boot.dev",
+   "runs_cited": 2,
+   "questions_cited": 2,
+   "citation_rate": 0.2,
+   "share_of_voice": 0.034482758620689655,
+   "avg_position": 4.5,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "modernagecoders.com",
+   "runs_cited": 2,
+   "questions_cited": 2,
+   "citation_rate": 0.2,
+   "share_of_voice": 0.034482758620689655,
+   "avg_position": 3.5,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "nobledesktop.com",
+   "runs_cited": 2,
+   "questions_cited": 2,
+   "citation_rate": 0.2,
+   "share_of_voice": 0.034482758620689655,
+   "avg_position": 3.5,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "youtube.com",
+   "runs_cited": 2,
+   "questions_cited": 2,
+   "citation_rate": 0.2,
+   "share_of_voice": 0.034482758620689655,
+   "avg_position": 4.5,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "classcentral.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "codechef.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 3.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "codesmith.io",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 6.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "codewars.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 2.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "codingphase.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 1.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "computerscience.org",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 7.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "coursereport.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 5.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "dev.to",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 2.0,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "edabit.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 5.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "edx.org",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 3.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "flatironschool.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "fracedemy.app",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "freeacademy.ai",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 1.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "giveawaygoose.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 1.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "harvard.edu",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 2.0,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "ironhack.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 7.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "learn-js.org",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 6.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "medium.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 2.0,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "mimo.org",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 3.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "mygreatlearning.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 5.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "placementdrive.in",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "skillcrush.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 2.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "stmarytx.edu",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "substack.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 8.0,
+   "is_own": false,
+   "is_third_party": true
+  },
+  {
+   "domain": "tarek-mohamed.me.eg",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 1.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "techelevator.com",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 5.0,
+   "is_own": false,
+   "is_third_party": false
+  },
+  {
+   "domain": "telecomhall.net",
+   "runs_cited": 1,
+   "questions_cited": 1,
+   "citation_rate": 0.1,
+   "share_of_voice": 0.017241379310344827,
+   "avg_position": 4.0,
+   "is_own": false,
+   "is_third_party": false
+  }
+ ],
+ "question_results": [
+  {
+   "question": "What are the best free coding platforms for beginners?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + openai/gpt-oss-120b)",
+     "question": "What are the best free coding platforms for beginners?",
+     "answer": "The following free platforms consistently rank as the most beginner‑friendly for learning to code:\n\n* **Codecademy (free tier)** – Browser‑based editor with guided lessons, instant feedback and an AI helper, so learners can write and run code without installing anything [7][3].  \n* **Coddy** – “Best overall” for hands‑on interactive learning; lessons start with real code and provide streak‑based habit tracking [3][8].  \n* **freeCodeCamp** – Structured curriculum that covers HTML, CSS, JavaScript, Python and full‑stack topics, all with real‑world projects [9][6].  \n* **Khan Academy** – Video explanations plus step‑by‑step JavaScript, HTML/CSS and SQL challenges; ideal for absolute beginners [1][6].  \n* **Sololearn** – Bite‑sized mobile lessons and thousands of quizzes; great for practice on the go [1][4][6].  \n* **The Odin Project** – Complete, project‑based web‑development path that’s entirely free [6].  \n* **Code.org** – Interactive games and puzzles that introduce programming concepts to newcomers [6].  \n\nThese platforms require no paid subscription to start, offer instant code execution, and cover a wide range of languages, making them the top free choices for anyone beginning their coding journey.",
+     "citations": [
+      {
+       "url": "https://www.codecademy.com",
+       "title": "Learn to Code - for Free | Codecademy",
+       "domain": "codecademy.com",
+       "position": 1
+      },
+      {
+       "url": "https://coddy.tech/free-coding-websites",
+       "title": "10 Best Free Coding Websites in 2026 (Tested & Ranked)",
+       "domain": "coddy.tech",
+       "position": 2
+      },
+      {
+       "url": "https://coddy.tech",
+       "title": "Learn to Code Free Online - Python, JS & 15+ | Coddy.Tech",
+       "domain": "coddy.tech",
+       "position": 3
+      },
+      {
+       "url": "https://www.freecodecamp.org",
+       "title": "freeCodeCamp.org",
+       "domain": "freecodecamp.org",
+       "position": 4
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=cqIMqSOdBgE",
+       "title": "Top 12 Best Websites to Learn Coding for FREE! 2026",
+       "domain": "youtube.com",
+       "position": 5
+      },
+      {
+       "url": "https://codesmith.io/blog/top-10-beginner-coding-platforms-to-kickstart-your-programming-journey",
+       "title": "Codesmith | Top 10 Beginner Coding Platforms to Kickstart Your Programming Journey",
+       "domain": "codesmith.io",
+       "position": 6
+      },
+      {
+       "url": "https://www.computerscience.org/bootcamps/guides/coding-apps-for-beginners",
+       "title": "Best Coding Apps for Beginners | ComputerScience.org",
+       "domain": "computerscience.org",
+       "position": 7
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://codesmith.io/blog/top-10-beginner-coding-platforms-to-kickstart-your-programming-journey",
+       "title": "Codesmith | Top 10 Beginner Coding Platforms to Kickstart Your Programming Journey",
+       "domain": "codesmith.io",
+       "position": 1
+      },
+      {
+       "url": "https://www.experts-exchange.com/questions/29298621/what-is-the-best-free-software-for-beginners-to-start-learning-coding-and-practice-programming-at-home.html",
+       "title": "what is the best free software for beginners to start learning coding and practice programming at home? | Experts Exchange",
+       "domain": "experts-exchange.com",
+       "position": 2
+      },
+      {
+       "url": "https://coddy.tech/free-coding-websites",
+       "title": "10 Best Free Coding Websites in 2026 (Tested & Ranked)",
+       "domain": "coddy.tech",
+       "position": 3
+      },
+      {
+       "url": "https://www.computerscience.org/bootcamps/guides/coding-apps-for-beginners",
+       "title": "Best Coding Apps for Beginners | ComputerScience.org",
+       "domain": "computerscience.org",
+       "position": 4
+      },
+      {
+       "url": "https://finance.yahoo.com/news/15-best-coding-games-learn-145531940.html",
+       "title": "15 Best Coding Games to Learn Programming for Beginners",
+       "domain": "yahoo.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=cqIMqSOdBgE",
+       "title": "Top 12 Best Websites to Learn Coding for FREE! 2026",
+       "domain": "youtube.com",
+       "position": 6
+      },
+      {
+       "url": "https://www.codecademy.com",
+       "title": "Learn to Code - for Free | Codecademy",
+       "domain": "codecademy.com",
+       "position": 7
+      },
+      {
+       "url": "https://coddy.tech",
+       "title": "Learn to Code Free Online - Python, JS & 15+ | Coddy.Tech",
+       "domain": "coddy.tech",
+       "position": 8
+      },
+      {
+       "url": "https://www.freecodecamp.org",
+       "title": "freeCodeCamp.org",
+       "domain": "freecodecamp.org",
+       "position": 9
+      },
+      {
+       "url": "https://finance.yahoo.com/news/best-trading-platforms-beginners-2021-143057813.html",
+       "title": "Best Trading Platforms for Beginners in 2021",
+       "domain": "yahoo.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 1,
+   "own_rate": 1.0,
+   "top_domains": [
+    [
+     "coddy.tech",
+     1
+    ],
+    [
+     "codecademy.com",
+     1
+    ],
+    [
+     "codesmith.io",
+     1
+    ],
+    [
+     "computerscience.org",
+     1
+    ],
+    [
+     "freecodecamp.org",
+     1
+    ],
+    [
+     "youtube.com",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://coddy.tech",
+    "https://coddy.tech/free-coding-websites",
+    "https://codesmith.io/blog/top-10-beginner-coding-platforms-to-kickstart-your-programming-journey",
+    "https://www.codecademy.com",
+    "https://www.computerscience.org/bootcamps/guides/coding-apps-for-beginners",
+    "https://www.freecodecamp.org",
+    "https://www.youtube.com/watch?v=cqIMqSOdBgE"
+   ],
+   "own_retrieved_rank": 9,
+   "retrieval_known": true,
+   "gap": null
+  },
+  {
+   "question": "How to choose a free online programming course?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + qwen/qwen3.8-27b)",
+     "question": "How to choose a free online programming course?",
+     "answer": "When choosing a free online programming course, start by identifying your specific goals and learning style. If you prefer self-directed learning, resources like freeCodeCamp offer extensive free content and certifications, allowing you to search for specific tools or languages [5]. For those seeking structured academic instruction, Harvard’s Computer Science 50 (CS50) series provides free, high-quality courses ranging from Scratch to Web Programming with Python and JavaScript [6]. Additionally, platforms like edX offer courses from leading universities, letting you explore different languages like Python or JavaScript to find your area of interest [2].\n\nYou should also consider the depth of the curriculum. A holistic front-end web development course will typically cover HTML, CSS, JavaScript, and UI design concepts, whereas a Python-specific course will focus solely on that language [1]. If you are a beginner, starting with interactive, beginner-friendly platforms like Codecademy or Khan Academy can help you get comfortable with basics before moving to more comprehensive programs [3]. Ultimately, the best course is one that matches your goals and that you will actually complete, as consistent practice is key [3].",
+     "citations": [
+      {
+       "url": "https://www.freecodecamp.org",
+       "title": "freeCodeCamp.org",
+       "domain": "freecodecamp.org",
+       "position": 1
+      },
+      {
+       "url": "https://pll.harvard.edu/subject/programming",
+       "title": "Programming Courses | Harvard University",
+       "domain": "harvard.edu",
+       "position": 2
+      },
+      {
+       "url": "https://www.edx.org/courses?q=free+coding+courses",
+       "title": "Free coding classes & courses online | edX",
+       "domain": "edx.org",
+       "position": 3
+      },
+      {
+       "url": "https://careercenter.stmarytx.edu/blog/2022/04/05/11-free-online-coding-classes-2022-beginner-guide",
+       "title": "11 Free Online Coding Classes [2022 Beginner Guide] – Rattler Careers | ST. MARY'S UNIVERSITY",
+       "domain": "stmarytx.edu",
+       "position": 4
+      },
+      {
+       "url": "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+       "title": "Best Coding Courses Online for Students 2026-27: 21 Free and Paid Options Compared",
+       "domain": "modernagecoders.com",
+       "position": 5
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://careercenter.stmarytx.edu/blog/2022/04/05/11-free-online-coding-classes-2022-beginner-guide",
+       "title": "11 Free Online Coding Classes [2022 Beginner Guide] – Rattler Careers | ST. MARY'S UNIVERSITY",
+       "domain": "stmarytx.edu",
+       "position": 1
+      },
+      {
+       "url": "https://www.edx.org/courses?q=free+coding+courses",
+       "title": "Free coding classes & courses online | edX",
+       "domain": "edx.org",
+       "position": 2
+      },
+      {
+       "url": "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+       "title": "Best Coding Courses Online for Students 2026-27: 21 Free and Paid Options Compared",
+       "domain": "modernagecoders.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.futurelearn.com/subjects/it-and-computer-science-courses/coding-programming",
+       "title": "Learn Coding and Programming with Free Online Courses",
+       "domain": "futurelearn.com",
+       "position": 4
+      },
+      {
+       "url": "https://www.freecodecamp.org",
+       "title": "freeCodeCamp.org",
+       "domain": "freecodecamp.org",
+       "position": 5
+      },
+      {
+       "url": "https://pll.harvard.edu/subject/programming",
+       "title": "Programming Courses | Harvard University",
+       "domain": "harvard.edu",
+       "position": 6
+      },
+      {
+       "url": "https://www.reddit.com/r/careerguidance/comments/10h1boh/how_can_i_learn_how_to_code_for_free_or_as_cheap",
+       "title": "How can i learn how to code for free or as cheap ...",
+       "domain": "reddit.com",
+       "position": 7
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 1,
+   "own_rate": 1.0,
+   "top_domains": [
+    [
+     "edx.org",
+     1
+    ],
+    [
+     "freecodecamp.org",
+     1
+    ],
+    [
+     "harvard.edu",
+     1
+    ],
+    [
+     "modernagecoders.com",
+     1
+    ],
+    [
+     "stmarytx.edu",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://careercenter.stmarytx.edu/blog/2022/04/05/11-free-online-coding-classes-2022-beginner-guide",
+    "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+    "https://pll.harvard.edu/subject/programming",
+    "https://www.edx.org/courses?q=free+coding+courses",
+    "https://www.freecodecamp.org"
+   ],
+   "own_retrieved_rank": 5,
+   "retrieval_known": true,
+   "gap": null
+  },
+  {
+   "question": "Free web development tutorials vs paid bootcamps comparison?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + openai/gpt-oss-120b)",
+     "question": "Free web development tutorials vs paid bootcamps comparison?",
+     "answer": "**Curriculum & Content** – Free bootcamps such as freeCodeCamp, The Odin Project, and MDN Web Docs deliver “world‑class”, project‑based curricula that are constantly refreshed by the open‑source community and can match or exceed paid programs in depth [1][2]. Paid courses (e.g., Mimo, Scrimba’s AI track, Udemy’s “Complete Full‑Stack Bootcamp”) often add gamified lessons, niche topics (AI integration) and polished video production [3].\n\n**Structure & Assessment** – Paid bootcamps give a fixed schedule, instructor feedback, quizzes and certificates, which free platforms rarely provide [4][7]. Boot.dev illustrates the trade‑off: freeCodeCamp supplies the material, while Boot.dev adds a guided path with automated checks [5].\n\n**Community & Career Support** – Free programs have large forums (freeCodeCamp, The Odin Project) but limited one‑on‑one mentorship. Paid schools typically bundle career services, interview prep and hiring partners [6][7].\n\n**Cost & Risk** – Free options cost nothing and let you test the field before committing [6][9]; paid bootcamps require a five‑figure investment but can accelerate hiring for students who already know they want a dev career [7].\n\n**Recommendation** – Start with freeCodeCamp or The Odin Project to build a portfolio; if you need tighter deadlines, certification, or dedicated job support, consider a paid track like Mimo (introductory) or Scrimba’s AI for Web Developers, or a full‑stack bootcamp on Udemy.",
+     "citations": [
+      {
+       "url": "https://tarek-mohamed.me.eg/blog/free-vs-paid-coding-bootcamps",
+       "title": "Free vs Paid Coding Bootcamps: What to Choose?",
+       "domain": "tarek-mohamed.me.eg",
+       "position": 1
+      },
+      {
+       "url": "https://www.facebook.com/groups/free.code.camp.chicago/posts/1499210026864532",
+       "title": "Free coding resources vs expensive bootcamps comparison",
+       "domain": "facebook.com",
+       "position": 2
+      },
+      {
+       "url": "https://mimo.org/blog/best-web-development-courses",
+       "title": "13 Best Online Web Development Courses for 2026 (Free & Paid)",
+       "domain": "mimo.org",
+       "position": 3
+      },
+      {
+       "url": "https://www.fracedemy.app/blog/free-tutorials-vs-paid-web-development-course.html",
+       "title": "Free Tutorials vs a Paid Web Development Course",
+       "domain": "fracedemy.app",
+       "position": 4
+      },
+      {
+       "url": "https://coddy.tech/vs/best-online-coding-bootcamps",
+       "title": "Best Online Coding Bootcamps (2026): Honest Comparison",
+       "domain": "coddy.tech",
+       "position": 5
+      },
+      {
+       "url": "https://www.boot.dev/blog/education/bootdev-vs-freecodecamp",
+       "title": "Boot.dev vs freeCodeCamp: when does paying make sense?",
+       "domain": "boot.dev",
+       "position": 6
+      },
+      {
+       "url": "https://www.ironhack.com/us/blog/free-bootcamps-vs-paid-bootcamps",
+       "title": "Free Bootcamps vs. Paid Bootcamps",
+       "domain": "ironhack.com",
+       "position": 7
+      },
+      {
+       "url": "https://www.reddit.com/r/cscareerquestions/comments/r9jhoi/is_a_paid_full_stack_coding_bootcamp_worth",
+       "title": "Is a paid Full Stack coding bootcamp worth compared to ...",
+       "domain": "reddit.com",
+       "position": 8
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://tarek-mohamed.me.eg/blog/free-vs-paid-coding-bootcamps",
+       "title": "Free vs Paid Coding Bootcamps: What to Choose?",
+       "domain": "tarek-mohamed.me.eg",
+       "position": 1
+      },
+      {
+       "url": "https://www.facebook.com/groups/free.code.camp.chicago/posts/1499210026864532",
+       "title": "Free coding resources vs expensive bootcamps comparison",
+       "domain": "facebook.com",
+       "position": 2
+      },
+      {
+       "url": "https://mimo.org/blog/best-web-development-courses",
+       "title": "13 Best Online Web Development Courses for 2026 (Free & Paid)",
+       "domain": "mimo.org",
+       "position": 3
+      },
+      {
+       "url": "https://www.fracedemy.app/blog/free-tutorials-vs-paid-web-development-course.html",
+       "title": "Free Tutorials vs a Paid Web Development Course",
+       "domain": "fracedemy.app",
+       "position": 4
+      },
+      {
+       "url": "https://www.boot.dev/blog/education/bootdev-vs-freecodecamp",
+       "title": "Boot.dev vs freeCodeCamp: when does paying make sense?",
+       "domain": "boot.dev",
+       "position": 5
+      },
+      {
+       "url": "https://www.ironhack.com/us/blog/free-bootcamps-vs-paid-bootcamps",
+       "title": "Free Bootcamps vs. Paid Bootcamps",
+       "domain": "ironhack.com",
+       "position": 6
+      },
+      {
+       "url": "https://coddy.tech/vs/best-online-coding-bootcamps",
+       "title": "Best Online Coding Bootcamps (2026): Honest Comparison",
+       "domain": "coddy.tech",
+       "position": 7
+      },
+      {
+       "url": "https://www.quora.com/What-is-the-difference-between-a-http-freecodecamp-com-and-other-expensive-coding-boot-camps-Is-it-worth-to-try-freecodecamp",
+       "title": "What is the difference between a http://freecodecamp.com ...",
+       "domain": "quora.com",
+       "position": 8
+      },
+      {
+       "url": "https://www.reddit.com/r/cscareerquestions/comments/r9jhoi/is_a_paid_full_stack_coding_bootcamp_worth",
+       "title": "Is a paid Full Stack coding bootcamp worth compared to ...",
+       "domain": "reddit.com",
+       "position": 9
+      },
+      {
+       "url": "https://codingphase.com/blog/free-coding-bootcamps",
+       "title": "Free Coding Bootcamps That Are Actually Worth It (2026)",
+       "domain": "codingphase.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 0,
+   "own_rate": 0.0,
+   "top_domains": [
+    [
+     "boot.dev",
+     1
+    ],
+    [
+     "coddy.tech",
+     1
+    ],
+    [
+     "facebook.com",
+     1
+    ],
+    [
+     "fracedemy.app",
+     1
+    ],
+    [
+     "ironhack.com",
+     1
+    ],
+    [
+     "mimo.org",
+     1
+    ],
+    [
+     "reddit.com",
+     1
+    ],
+    [
+     "tarek-mohamed.me.eg",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://coddy.tech/vs/best-online-coding-bootcamps",
+    "https://mimo.org/blog/best-web-development-courses",
+    "https://tarek-mohamed.me.eg/blog/free-vs-paid-coding-bootcamps",
+    "https://www.boot.dev/blog/education/bootdev-vs-freecodecamp",
+    "https://www.facebook.com/groups/free.code.camp.chicago/posts/1499210026864532",
+    "https://www.fracedemy.app/blog/free-tutorials-vs-paid-web-development-course.html",
+    "https://www.ironhack.com/us/blog/free-bootcamps-vs-paid-bootcamps",
+    "https://www.reddit.com/r/cscareerquestions/comments/r9jhoi/is_a_paid_full_stack_coding_bootcamp_worth"
+   ],
+   "own_retrieved_rank": null,
+   "retrieval_known": true,
+   "gap": {
+    "question": "Free web development tutorials vs paid bootcamps comparison?",
+    "own_url": "https://www.freecodecamp.org/news/learn-web-development-for-free/",
+    "own_is_fallback": false,
+    "own_features": {
+     "url": "https://www.freecodecamp.org/news/learn-web-development-for-free/",
+     "ok": true,
+     "error": null,
+     "word_count": 3810,
+     "direct_answer": false,
+     "stats_count": 30,
+     "question_headings": 14,
+     "headings_count": 32,
+     "has_list": true,
+     "has_table": false,
+     "outbound_links": 14,
+     "quotes": 8,
+     "schema_types": [
+      "Article"
+     ],
+     "modified": "2025-02-03",
+     "fresh": false,
+     "js_dependent": false
+    },
+    "winner_features": [
+     {
+      "url": "https://coddy.tech/vs/best-online-coding-bootcamps",
+      "ok": true,
+      "error": null,
+      "word_count": 2020,
+      "direct_answer": false,
+      "stats_count": 27,
+      "question_headings": 4,
+      "headings_count": 13,
+      "has_list": true,
+      "has_table": true,
+      "outbound_links": 0,
+      "quotes": 2,
+      "schema_types": [
+       "Article",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-09-20",
+      "fresh": true,
+      "js_dependent": false
+     },
+     {
+      "url": "https://mimo.org/blog/best-web-development-courses",
+      "ok": true,
+      "error": null,
+      "word_count": 4018,
+      "direct_answer": false,
+      "stats_count": 20,
+      "question_headings": 30,
+      "headings_count": 63,
+      "has_list": true,
+      "has_table": false,
+      "outbound_links": 12,
+      "quotes": 0,
+      "schema_types": [
+       "Article",
+       "FAQPage"
+      ],
+      "modified": "2025-12-08",
+      "fresh": true,
+      "js_dependent": false
+     },
+     {
+      "url": "https://tarek-mohamed.me.eg/blog/free-vs-paid-coding-bootcamps",
+      "ok": true,
+      "error": null,
+      "word_count": 289,
+      "direct_answer": false,
+      "stats_count": 2,
+      "question_headings": 0,
+      "headings_count": 5,
+      "has_list": false,
+      "has_table": false,
+      "outbound_links": 0,
+      "quotes": 0,
+      "schema_types": [
+       "Article",
+       "FAQPage",
+       "Person",
+       "ProfessionalService",
+       "WebSite"
+      ],
+      "modified": "2026-05-12",
+      "fresh": true,
+      "js_dependent": false
+     }
+    ],
+    "gaps": [
+     {
+      "key": "direct_answer",
+      "label": "Answers the question in the first paragraph",
+      "winners_with": 0,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "stats",
+      "label": "Has 3+ specific numbers or stats",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "question_headings",
+      "label": "Uses question-style headings",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "fresh",
+      "label": "Updated in the last 12 months",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "lists_tables",
+      "label": "Uses lists or tables",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "sources",
+      "label": "Links out to 2+ other sources",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "quotes",
+      "label": "Includes quotes",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "depth",
+      "label": "In-depth (800+ words)",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "schema",
+      "label": "Has structured data (weak signal)",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     }
+    ]
+   }
+  },
+  {
+   "question": "Is there a free curriculum for learning JavaScript?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + qwen/qwen3.8-27b)",
+     "question": "Is there a free curriculum for learning JavaScript?",
+     "answer": "Yes, there are several free curricula for learning JavaScript. **freeCodeCamp** offers an open-source JavaScript Algorithms and Data Structures course that includes hundreds of interactive challenges and a free certification [1]. Additionally, **Coddy** provides a free, interactive course with full lessons, coding exercises, quizzes, and a certificate of completion, allowing you to write code directly in the browser without installing tools [2].\n\n**Scrimba** features a 9-hour interactive JavaScript course led by co-founder Per Borgen, which is designed for beginners and includes coding challenges [5]. The YouTube channel referenced in [3] also follows the freeCodeCamp curriculum, providing video lessons alongside interactive challenges from Scrimba. **Codecademy** offers free introductory courses on JavaScript fundamentals, functions, and scope, suitable for beginners [4]. Finally, **learn-js.org** provides a free interactive tutorial covering topics from variables to async/await [6].",
+     "citations": [
+      {
+       "url": "https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners",
+       "title": "Learn JavaScript – Free JS Courses for Beginners",
+       "domain": "freecodecamp.org",
+       "position": 1
+      },
+      {
+       "url": "https://coddy.tech/landing/javascript",
+       "title": "Learn JavaScript - Free Interactive Course | Coddy",
+       "domain": "coddy.tech",
+       "position": 2
+      },
+      {
+       "url": "https://scrimba.com/learn-javascript-c0v",
+       "title": "Free JavaScript Tutorial: Learn the basics in this 9-hour interactive course lead by Per Borgen",
+       "domain": "scrimba.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+       "title": "Learn JavaScript - Full Course for Beginners",
+       "domain": "youtube.com",
+       "position": 4
+      },
+      {
+       "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+       "title": "Learn JavaScript | Codecademy",
+       "domain": "codecademy.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.learn-js.org",
+       "title": "Learn JavaScript - Free Interactive JavaScript Tutorial",
+       "domain": "learn-js.org",
+       "position": 6
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners",
+       "title": "Learn JavaScript – Free JS Courses for Beginners",
+       "domain": "freecodecamp.org",
+       "position": 1
+      },
+      {
+       "url": "https://coddy.tech/landing/javascript",
+       "title": "Learn JavaScript - Free Interactive Course | Coddy",
+       "domain": "coddy.tech",
+       "position": 2
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+       "title": "Learn JavaScript - Full Course for Beginners",
+       "domain": "youtube.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+       "title": "Learn JavaScript | Codecademy",
+       "domain": "codecademy.com",
+       "position": 4
+      },
+      {
+       "url": "https://scrimba.com/learn-javascript-c0v",
+       "title": "Free JavaScript Tutorial: Learn the basics in this 9-hour interactive course lead by Per Borgen",
+       "domain": "scrimba.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.learn-js.org",
+       "title": "Learn JavaScript - Free Interactive JavaScript Tutorial",
+       "domain": "learn-js.org",
+       "position": 6
+      },
+      {
+       "url": "https://finance.yahoo.com/news/learning-genie-unveils-first-ai-233900694.html",
+       "title": "Learning Genie Unveils First AI Curriculum Agent at ASU-GSV",
+       "domain": "yahoo.com",
+       "position": 7
+      },
+      {
+       "url": "https://www.mapquest.com/us/ohio/curriculum-services-352702472",
+       "title": "Curriculum Services",
+       "domain": "mapquest.com",
+       "position": 8
+      },
+      {
+       "url": "https://www.indeed.com/q-imagine-learning-curriculum-development-jobs.html",
+       "title": "Now Hiring: 100 Imagine Learning Curriculum Development Jobs | Indeed",
+       "domain": "indeed.com",
+       "position": 9
+      },
+      {
+       "url": "https://www.indeed.com/q-social-emotional-learning-curriculum-developer-jobs.html",
+       "title": "Now Hiring: 600 Social Emotional Learning Curriculum Developer Jobs | Indeed",
+       "domain": "indeed.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 1,
+   "own_rate": 1.0,
+   "top_domains": [
+    [
+     "coddy.tech",
+     1
+    ],
+    [
+     "codecademy.com",
+     1
+    ],
+    [
+     "freecodecamp.org",
+     1
+    ],
+    [
+     "learn-js.org",
+     1
+    ],
+    [
+     "scrimba.com",
+     1
+    ],
+    [
+     "youtube.com",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://coddy.tech/landing/javascript",
+    "https://scrimba.com/learn-javascript-c0v",
+    "https://www.codecademy.com/learn/introduction-to-javascript",
+    "https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners",
+    "https://www.learn-js.org",
+    "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+   ],
+   "own_retrieved_rank": 1,
+   "retrieval_known": true,
+   "gap": null
+  },
+  {
+   "question": "Which free coding resources cover full-stack development?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + openai/gpt-oss-120b)",
+     "question": "Which free coding resources cover full-stack development?",
+     "answer": "Several free resources provide complete full‑stack learning paths:\n\n1. **The Odin Project** – an open‑source, project‑based curriculum that teaches HTML, CSS, JavaScript, Ruby on Rails, databases and deployment without any cost【2】.  \n\n2. **freeCodeCamp** – offers full‑course tracks in web development that cover front‑end and back‑end technologies (HTML, CSS, JavaScript, Node, React, etc.) for free【3】.  \n\n3. **Scrimba** – a free interactive platform with full‑stack tutorials, including HTML/CSS, JavaScript, React and Node.js【3】.  \n\n4. **Noble Desktop’s free collection** – articles, tutorials and free seminars that introduce the core languages and tools used in full‑stack development (HTML, CSS, JavaScript, SQL, Python, Ruby on Rails)【1】.  \n\n5. **YouTube full‑stack playlists** – a dedicated free YouTube course walks learners from HTML through React and back‑end frameworks, covering a complete modern stack【4】.  \n\nThese options let you learn both front‑end UI work and back‑end server/database development at no cost.",
+     "citations": [
+      {
+       "url": "https://giveawaygoose.com/blog/the-odin-project-free-full-stack-coding-explained",
+       "title": "The Odin Project: Free Full-Stack Coding Explained - GiveawayGoose Blog",
+       "domain": "giveawaygoose.com",
+       "position": 1
+      },
+      {
+       "url": "https://dev.to/devshefali/16-free-resources-to-learn-web-development-in-2025-4307",
+       "title": "16 Free Resources to Learn Web Development in 2025 - DEV Community",
+       "domain": "dev.to",
+       "position": 2
+      },
+      {
+       "url": "https://blog.nobledesktop.com/learn/full-stack-web-development/full-stack-web-development-free-resources-and-tutorials",
+       "title": "Free Full-Stack Web Development Resources & Tutorials for Beginners",
+       "domain": "nobledesktop.com",
+       "position": 3
+      },
+      {
+       "url": "https://placementdrive.in/8-free-youtube-courses-to-master-coding-ai-full-stack-development",
+       "title": "8 FREE YouTube Courses to Master Coding, AI & Full-Stack Development",
+       "domain": "placementdrive.in",
+       "position": 4
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://blog.nobledesktop.com/learn/full-stack-web-development/full-stack-web-development-free-resources-and-tutorials",
+       "title": "Free Full-Stack Web Development Resources & Tutorials for Beginners",
+       "domain": "nobledesktop.com",
+       "position": 1
+      },
+      {
+       "url": "https://giveawaygoose.com/blog/the-odin-project-free-full-stack-coding-explained",
+       "title": "The Odin Project: Free Full-Stack Coding Explained - GiveawayGoose Blog",
+       "domain": "giveawaygoose.com",
+       "position": 2
+      },
+      {
+       "url": "https://dev.to/devshefali/16-free-resources-to-learn-web-development-in-2025-4307",
+       "title": "16 Free Resources to Learn Web Development in 2025 - DEV Community",
+       "domain": "dev.to",
+       "position": 3
+      },
+      {
+       "url": "https://placementdrive.in/8-free-youtube-courses-to-master-coding-ai-full-stack-development",
+       "title": "8 FREE YouTube Courses to Master Coding, AI & Full-Stack Development",
+       "domain": "placementdrive.in",
+       "position": 4
+      },
+      {
+       "url": "https://www.thecodingsharks.com/full-stack-development-course",
+       "title": "Full Stack Web Development Course with Placement | Coding Sharks",
+       "domain": "thecodingsharks.com",
+       "position": 5
+      },
+      {
+       "url": "https://rocketreach.co/full-stack-resources-profile_b44cb8edfd837afa",
+       "title": "[Full Stack Resources Information](/full-stack-resources-profile_b44cb8edfd837afa \"Full Stack Resources Information\")",
+       "domain": "rocketreach.co",
+       "position": 6
+      },
+      {
+       "url": "https://www.indeed.com/q-free-live-coding-platforms-jobs.html",
+       "title": "Now Hiring: 1,000 Free Live Coding Platforms Jobs | Indeed",
+       "domain": "indeed.com",
+       "position": 7
+      },
+      {
+       "url": "https://www.zoominfo.com/c/arkansas-coding-academy/410855511",
+       "title": "Arkansas Coding Academy",
+       "domain": "zoominfo.com",
+       "position": 8
+      },
+      {
+       "url": "https://www.indeed.com/q-coding-l-muskegon,-mi-jobs.html",
+       "title": "100 Coding Jobs & Work in Muskegon, MI | Indeed",
+       "domain": "indeed.com",
+       "position": 9
+      },
+      {
+       "url": "https://rocketreach.co/coding-hands-infotech-llp-technology-stack_b40d2daeffbd8302",
+       "title": "Coding Hands Infotech LLP Technology Stack | Coding Hands Infotech LLP Technology Profile",
+       "domain": "rocketreach.co",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 0,
+   "own_rate": 0.0,
+   "top_domains": [
+    [
+     "dev.to",
+     1
+    ],
+    [
+     "giveawaygoose.com",
+     1
+    ],
+    [
+     "nobledesktop.com",
+     1
+    ],
+    [
+     "placementdrive.in",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://blog.nobledesktop.com/learn/full-stack-web-development/full-stack-web-development-free-resources-and-tutorials",
+    "https://dev.to/devshefali/16-free-resources-to-learn-web-development-in-2025-4307",
+    "https://giveawaygoose.com/blog/the-odin-project-free-full-stack-coding-explained",
+    "https://placementdrive.in/8-free-youtube-courses-to-master-coding-ai-full-stack-development"
+   ],
+   "own_retrieved_rank": null,
+   "retrieval_known": true,
+   "gap": {
+    "question": "Which free coding resources cover full-stack development?",
+    "own_url": "https://www.freecodecamp.org/news/master-full-stack-mobile-development-with-react-native/",
+    "own_is_fallback": false,
+    "own_features": {
+     "url": "https://www.freecodecamp.org/news/master-full-stack-mobile-development-with-react-native/",
+     "ok": true,
+     "error": null,
+     "word_count": 623,
+     "direct_answer": true,
+     "stats_count": 18,
+     "question_headings": 0,
+     "headings_count": 0,
+     "has_list": true,
+     "has_table": false,
+     "outbound_links": 1,
+     "quotes": 0,
+     "schema_types": [
+      "Article"
+     ],
+     "modified": "2026-07-16",
+     "fresh": true,
+     "js_dependent": false
+    },
+    "winner_features": [
+     {
+      "url": "https://blog.nobledesktop.com/learn/full-stack-web-development/full-stack-web-development-free-resources-and-tutorials",
+      "ok": true,
+      "error": null,
+      "word_count": 1908,
+      "direct_answer": true,
+      "stats_count": 0,
+      "question_headings": 2,
+      "headings_count": 7,
+      "has_list": true,
+      "has_table": false,
+      "outbound_links": 0,
+      "quotes": 0,
+      "schema_types": [
+       "Article",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-05-05",
+      "fresh": true,
+      "js_dependent": false
+     },
+     {
+      "url": "https://dev.to/devshefali/16-free-resources-to-learn-web-development-in-2025-4307",
+      "ok": true,
+      "error": null,
+      "word_count": 877,
+      "direct_answer": true,
+      "stats_count": 0,
+      "question_headings": 0,
+      "headings_count": 19,
+      "has_list": true,
+      "has_table": false,
+      "outbound_links": 16,
+      "quotes": 0,
+      "schema_types": [
+       "Article"
+      ],
+      "modified": "2025-08-10",
+      "fresh": false,
+      "js_dependent": false
+     },
+     {
+      "url": "https://giveawaygoose.com/blog/the-odin-project-free-full-stack-coding-explained",
+      "ok": true,
+      "error": null,
+      "word_count": 2399,
+      "direct_answer": true,
+      "stats_count": 20,
+      "question_headings": 10,
+      "headings_count": 14,
+      "has_list": false,
+      "has_table": false,
+      "outbound_links": 0,
+      "quotes": 1,
+      "schema_types": [
+       "Article",
+       "BreadcrumbList",
+       "Organization",
+       "WebSite"
+      ],
+      "modified": "2026-07-14",
+      "fresh": true,
+      "js_dependent": false
+     }
+    ],
+    "gaps": [
+     {
+      "key": "direct_answer",
+      "label": "Answers the question in the first paragraph",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "stats",
+      "label": "Has 3+ specific numbers or stats",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "question_headings",
+      "label": "Uses question-style headings",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "fresh",
+      "label": "Updated in the last 12 months",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "lists_tables",
+      "label": "Uses lists or tables",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "sources",
+      "label": "Links out to 2+ other sources",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "quotes",
+      "label": "Includes quotes",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "depth",
+      "label": "In-depth (800+ words)",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "schema",
+      "label": "Has structured data (weak signal)",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     }
+    ]
+   }
+  },
+  {
+   "question": "Can I get a certification from a free coding site?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + qwen/qwen3.8-27b)",
+     "question": "Can I get a certification from a free coding site?",
+     "answer": "Yes, you can obtain certificates from several free coding sites. **freeCodeCamp** is a prominent option where every aspect, including verified certifications, is 100% free; you earn them by building specific projects and passing tests [4][5]. **Coddy** also offers 100% free certificates for Python, JavaScript, and other subjects, with no hidden paywalls or subscriptions required to download or share them [1]. Additionally, Class Central lists **freeCodeCamp** and **CodeSignal** as providers of thousands of free certificates in web development, programming, and AI [3].\n\nIn contrast, other platforms may have additional costs. For example, Great Learning offers free courses but notes that certificates are available for a nominal fee upon completion [2]. Similarly, while Codecademy provides free resources, its professional certification prep and full access features are tied to paid subscriptions like Codecademy Pro [7]. For the most straightforward path to a truly free credential, freeCodeCamp and Coddy are recommended choices [1][4].",
+     "citations": [
+      {
+       "url": "https://www.freecodecamp.org",
+       "title": "freeCodeCamp.org",
+       "domain": "freecodecamp.org",
+       "position": 1
+      },
+      {
+       "url": "https://www.reddit.com/r/learnprogramming/comments/12wqe8w/what_are_some_programming_courses_that_offer_free",
+       "title": "What are some programming courses that offer free ...",
+       "domain": "reddit.com",
+       "position": 2
+      },
+      {
+       "url": "https://coddy.tech/certifications",
+       "title": "Free Coding Certifications: Python, JS & More | Coddy",
+       "domain": "coddy.tech",
+       "position": 3
+      },
+      {
+       "url": "https://www.classcentral.com/report/free-certificates",
+       "title": "[2026] Massive List of Thousands of Free Certificates and Badges — Class Central",
+       "domain": "classcentral.com",
+       "position": 4
+      },
+      {
+       "url": "https://www.mygreatlearning.com/coding/free-courses",
+       "title": "Free Coding Courses Online for Beginners with Certificates (2026)",
+       "domain": "mygreatlearning.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.codecademy.com",
+       "title": "Learn to Code - for Free | Codecademy",
+       "domain": "codecademy.com",
+       "position": 6
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://coddy.tech/certifications",
+       "title": "Free Coding Certifications: Python, JS & More | Coddy",
+       "domain": "coddy.tech",
+       "position": 1
+      },
+      {
+       "url": "https://www.mygreatlearning.com/coding/free-courses",
+       "title": "Free Coding Courses Online for Beginners with Certificates (2026)",
+       "domain": "mygreatlearning.com",
+       "position": 2
+      },
+      {
+       "url": "https://www.classcentral.com/report/free-certificates",
+       "title": "[2026] Massive List of Thousands of Free Certificates and Badges — Class Central",
+       "domain": "classcentral.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.freecodecamp.org",
+       "title": "freeCodeCamp.org",
+       "domain": "freecodecamp.org",
+       "position": 4
+      },
+      {
+       "url": "https://www.reddit.com/r/learnprogramming/comments/12wqe8w/what_are_some_programming_courses_that_offer_free",
+       "title": "What are some programming courses that offer free ...",
+       "domain": "reddit.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.coursera.org/courses?query=free&skills=Programming+Principles",
+       "title": "Free Programming Courses & Certificates [2026] | Coursera",
+       "domain": "coursera.org",
+       "position": 6
+      },
+      {
+       "url": "https://www.codecademy.com",
+       "title": "Learn to Code - for Free | Codecademy",
+       "domain": "codecademy.com",
+       "position": 7
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 1,
+   "own_rate": 1.0,
+   "top_domains": [
+    [
+     "classcentral.com",
+     1
+    ],
+    [
+     "coddy.tech",
+     1
+    ],
+    [
+     "codecademy.com",
+     1
+    ],
+    [
+     "freecodecamp.org",
+     1
+    ],
+    [
+     "mygreatlearning.com",
+     1
+    ],
+    [
+     "reddit.com",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://coddy.tech/certifications",
+    "https://www.classcentral.com/report/free-certificates",
+    "https://www.codecademy.com",
+    "https://www.freecodecamp.org",
+    "https://www.mygreatlearning.com/coding/free-courses",
+    "https://www.reddit.com/r/learnprogramming/comments/12wqe8w/what_are_some_programming_courses_that_offer_free"
+   ],
+   "own_retrieved_rank": 4,
+   "retrieval_known": true,
+   "gap": null
+  },
+  {
+   "question": "How long does it take to become a web developer using free resources?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + openai/gpt-oss-120b)",
+     "question": "How long does it take to become a web developer using free resources?",
+     "answer": "Using only free courses, most learners become employ‑ready in **4 – 12 months**, depending on the path and time they commit.\n\n* **Front‑end focus** – With a disciplined 2‑3 hours‑per‑day schedule, you can reach a job‑ready level in **4‑8 months**; the fastest self‑taught students land a role after **3‑4 months** of intensive study, while part‑time learners need **12‑18 months** [1][3][4].  \n* **Full‑stack track** – Free platforms such as Scrimba outline a **6‑12‑month** timeline, and most beginners who study about 8 hours per week finish in **8‑12 months** [4][5].  \n* **Baseline milestones** – Core HTML/CSS fundamentals can be grasped in **≈3 months**, and the essential JavaScript/React/Node stack can be solidified by **≈6 months** of consistent practice [5][4].\n\n**Key take‑away:** If you study **2‑3 hours daily** (or ~8‑10 hours weekly), expect to be interview‑ready in **4‑6 months** for front‑end roles and **6‑12 months** for full‑stack positions, with faster outcomes possible for very intensive schedules.",
+     "citations": [
+      {
+       "url": "https://freeacademy.ai/blog/best-free-courses-learn-web-development",
+       "title": "Best Free Courses to Learn Web Development Without a Degree | 2026",
+       "domain": "freeacademy.ai",
+       "position": 1
+      },
+      {
+       "url": "https://skillcrush.com/blog/how-long-does-it-take-to-become-a-web-developer",
+       "title": "How Long Does it Take to Become a Web Developer?",
+       "domain": "skillcrush.com",
+       "position": 2
+      },
+      {
+       "url": "https://scrimba.com/articles/how-long-does-it-take-to-learn-to-code-a-realistic-timeline",
+       "title": "How Long Does It Take to Learn to Code? [2026 Guide]",
+       "domain": "scrimba.com",
+       "position": 3
+      },
+      {
+       "url": "https://blog.nobledesktop.com/learn/web-development/how-long-does-it-take-to-learn-web-development",
+       "title": "How Long Does it Take to Learn Web Development?",
+       "domain": "nobledesktop.com",
+       "position": 4
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://freeacademy.ai/blog/best-free-courses-learn-web-development",
+       "title": "Best Free Courses to Learn Web Development Without a Degree | 2026",
+       "domain": "freeacademy.ai",
+       "position": 1
+      },
+      {
+       "url": "https://www.facebook.com/groups/1605550896386197/posts/2751461648461777",
+       "title": "How long does it take to become a web developer?",
+       "domain": "facebook.com",
+       "position": 2
+      },
+      {
+       "url": "https://skillcrush.com/blog/how-long-does-it-take-to-become-a-web-developer",
+       "title": "How Long Does it Take to Become a Web Developer?",
+       "domain": "skillcrush.com",
+       "position": 3
+      },
+      {
+       "url": "https://scrimba.com/articles/how-long-does-it-take-to-learn-to-code-a-realistic-timeline",
+       "title": "How Long Does It Take to Learn to Code? [2026 Guide]",
+       "domain": "scrimba.com",
+       "position": 4
+      },
+      {
+       "url": "https://blog.nobledesktop.com/learn/web-development/how-long-does-it-take-to-learn-web-development",
+       "title": "How Long Does it Take to Learn Web Development?",
+       "domain": "nobledesktop.com",
+       "position": 5
+      },
+      {
+       "url": "https://debugacademy.com/article/how-long-does-it-take-become-web-developer",
+       "title": "How Long Does it Take to Become a Web Developer?",
+       "domain": "debugacademy.com",
+       "position": 6
+      },
+      {
+       "url": "https://www.reddit.com/r/webdev/comments/1irns3z/how_long_did_it_take_you_to_be_able_to_work_as_a",
+       "title": "How long did it take you to be able to work as a Developer",
+       "domain": "reddit.com",
+       "position": 7
+      },
+      {
+       "url": "https://stemlink.online/blogs/learning-web-development-in-2025",
+       "title": "How Long Does It Take to Learn Web Development in 2025?",
+       "domain": "stemlink.online",
+       "position": 8
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=NWnBxQjssvQ",
+       "title": "Fastest way to become a Web Developer in 2025",
+       "domain": "youtube.com",
+       "position": 9
+      },
+      {
+       "url": "https://www.quora.com/How-did-you-become-a-self-taught-web-developer-and-how-long-did-it-take",
+       "title": "How did you become a self taught web developer and how ...",
+       "domain": "quora.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 0,
+   "own_rate": 0.0,
+   "top_domains": [
+    [
+     "freeacademy.ai",
+     1
+    ],
+    [
+     "nobledesktop.com",
+     1
+    ],
+    [
+     "scrimba.com",
+     1
+    ],
+    [
+     "skillcrush.com",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://blog.nobledesktop.com/learn/web-development/how-long-does-it-take-to-learn-web-development",
+    "https://freeacademy.ai/blog/best-free-courses-learn-web-development",
+    "https://scrimba.com/articles/how-long-does-it-take-to-learn-to-code-a-realistic-timeline",
+    "https://skillcrush.com/blog/how-long-does-it-take-to-become-a-web-developer"
+   ],
+   "own_retrieved_rank": null,
+   "retrieval_known": true,
+   "gap": {
+    "question": "How long does it take to become a web developer using free resources?",
+    "own_url": "https://www.freecodecamp.org/news/how-to-become-a-web-developer-beginners-guide/",
+    "own_is_fallback": false,
+    "own_features": {
+     "url": "https://www.freecodecamp.org/news/how-to-become-a-web-developer-beginners-guide/",
+     "ok": true,
+     "error": null,
+     "word_count": 4852,
+     "direct_answer": false,
+     "stats_count": 34,
+     "question_headings": 3,
+     "headings_count": 25,
+     "has_list": true,
+     "has_table": false,
+     "outbound_links": 21,
+     "quotes": 0,
+     "schema_types": [
+      "Article"
+     ],
+     "modified": "2024-12-22",
+     "fresh": false,
+     "js_dependent": false
+    },
+    "winner_features": [
+     {
+      "url": "https://blog.nobledesktop.com/learn/web-development/how-long-does-it-take-to-learn-web-development",
+      "ok": true,
+      "error": null,
+      "word_count": 2114,
+      "direct_answer": false,
+      "stats_count": 4,
+      "question_headings": 3,
+      "headings_count": 13,
+      "has_list": true,
+      "has_table": true,
+      "outbound_links": 0,
+      "quotes": 0,
+      "schema_types": [
+       "Article",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-05-05",
+      "fresh": true,
+      "js_dependent": false
+     },
+     {
+      "url": "https://freeacademy.ai/blog/best-free-courses-learn-web-development",
+      "ok": false,
+      "error": "HTTP 429",
+      "word_count": 0,
+      "direct_answer": false,
+      "stats_count": 0,
+      "question_headings": 0,
+      "headings_count": 0,
+      "has_list": false,
+      "has_table": false,
+      "outbound_links": 0,
+      "quotes": 0,
+      "schema_types": [],
+      "modified": null,
+      "fresh": null,
+      "js_dependent": false
+     },
+     {
+      "url": "https://scrimba.com/articles/how-long-does-it-take-to-learn-to-code-a-realistic-timeline",
+      "ok": true,
+      "error": null,
+      "word_count": 2874,
+      "direct_answer": false,
+      "stats_count": 90,
+      "question_headings": 8,
+      "headings_count": 22,
+      "has_list": true,
+      "has_table": true,
+      "outbound_links": 8,
+      "quotes": 10,
+      "schema_types": [
+       "Article",
+       "BlogPosting",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-09-09",
+      "fresh": true,
+      "js_dependent": false
+     }
+    ],
+    "gaps": [
+     {
+      "key": "direct_answer",
+      "label": "Answers the question in the first paragraph",
+      "winners_with": 0,
+      "winners_total": 2,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "stats",
+      "label": "Has 3+ specific numbers or stats",
+      "winners_with": 2,
+      "winners_total": 2,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "question_headings",
+      "label": "Uses question-style headings",
+      "winners_with": 2,
+      "winners_total": 2,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "fresh",
+      "label": "Updated in the last 12 months",
+      "winners_with": 2,
+      "winners_total": 2,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "lists_tables",
+      "label": "Uses lists or tables",
+      "winners_with": 2,
+      "winners_total": 2,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "sources",
+      "label": "Links out to 2+ other sources",
+      "winners_with": 1,
+      "winners_total": 2,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "quotes",
+      "label": "Includes quotes",
+      "winners_with": 1,
+      "winners_total": 2,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "depth",
+      "label": "In-depth (800+ words)",
+      "winners_with": 2,
+      "winners_total": 2,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "schema",
+      "label": "Has structured data (weak signal)",
+      "winners_with": 2,
+      "winners_total": 2,
+      "own_has": true,
+      "is_gap": false
+     }
+    ]
+   }
+  },
+  {
+   "question": "What are the pricing options for free coding courses with optional upgrades?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + qwen/qwen3.8-27b)",
+     "question": "What are the pricing options for free coding courses with optional upgrades?",
+     "answer": "Several platforms offer free coding courses with optional paid upgrades for enhanced features:\n\n*   **Codecademy:** Provides a free tier for learning basics, with a Pro option ranging from $30 to $40 per month [1]. It is also listed at approximately ₹18K/year in some regional comparisons [3].\n*   **Coursera:** Offers free access to content, while the Coursera Plus subscription costs about $59 per month or $399 per year for unlimited catalog access [1][4].\n*   **Boot.dev:** All content is free to read and watch, but a membership costs $59/month or $399/year to enable interactive coding, community features, and leaderboards [4].\n*   **Udemy:** Hosts both free introductory courses and paid individual courses ranging from $20 to $200 [2][3].\n*   **Modern Age Coders:** Offers live mentorship classes with a flat monthly fee that varies by region and class size (group, mini-batch, or one-to-one), often starting with a free demo [3].\n*   **Egghead.io:** Provides free tutorials, with paid options including \"Essentials\" for $250 or full access for $795 to unlock deeper workshops [4].\n\nAdditionally, platforms like freeCodeCamp and Bento offer completely free curricula without mandatory paid upgrades [2]. Most paid platforms operate on a subscription or one-time purchase model, with many offering discounts or financial aid [1][5].",
+     "citations": [
+      {
+       "url": "https://codingphase.com/blog/best-affordable-coding-courses",
+       "title": "Best Affordable Coding Courses in 2026 (Free + Paid) · CodingPhase",
+       "domain": "codingphase.com",
+       "position": 1
+      },
+      {
+       "url": "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+       "title": "Best Coding Courses Online for Students 2026-27: 21 Free and Paid Options Compared",
+       "domain": "modernagecoders.com",
+       "position": 2
+      },
+      {
+       "url": "https://www.boot.dev/blog/education/best-online-coding-courses-2026",
+       "title": "16+ Best online coding courses [2026] | Boot.dev",
+       "domain": "boot.dev",
+       "position": 3
+      },
+      {
+       "url": "https://www.telecomhall.net/t/the-best-online-coding-classes-and-programs-to-learn-to-code-for-free/20504",
+       "title": "The Best Online Coding Classes and Programs to Learn to Code for Free - AI - telecomHall Forum",
+       "domain": "telecomhall.net",
+       "position": 4
+      },
+      {
+       "url": "https://www.coursereport.com/blog/online-coding-bootcamp-cost-comparison",
+       "title": "Online Coding Bootcamp Cost Comparison | Course Report",
+       "domain": "coursereport.com",
+       "position": 5
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://codingphase.com/blog/best-affordable-coding-courses",
+       "title": "Best Affordable Coding Courses in 2026 (Free + Paid) · CodingPhase",
+       "domain": "codingphase.com",
+       "position": 1
+      },
+      {
+       "url": "https://www.telecomhall.net/t/the-best-online-coding-classes-and-programs-to-learn-to-code-for-free/20504",
+       "title": "The Best Online Coding Classes and Programs to Learn to Code for Free - AI - telecomHall Forum",
+       "domain": "telecomhall.net",
+       "position": 2
+      },
+      {
+       "url": "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+       "title": "Best Coding Courses Online for Students 2026-27: 21 Free and Paid Options Compared",
+       "domain": "modernagecoders.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.boot.dev/blog/education/best-online-coding-courses-2026",
+       "title": "16+ Best online coding courses [2026] | Boot.dev",
+       "domain": "boot.dev",
+       "position": 4
+      },
+      {
+       "url": "https://www.coursereport.com/blog/online-coding-bootcamp-cost-comparison",
+       "title": "Online Coding Bootcamp Cost Comparison | Course Report",
+       "domain": "coursereport.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.codegrade.com/pricing",
+       "title": "Pricing & Plans | CodeGrade - Free Autograder for ...",
+       "domain": "codegrade.com",
+       "position": 6
+      },
+      {
+       "url": "https://www.ruzuku.com/learn/articles/best-free-course-platforms",
+       "title": "Best Free Course Platforms in 2026: What You Actually Get for $0",
+       "domain": "ruzuku.com",
+       "position": 7
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=eHI9E75jCCI",
+       "title": "Coding Bootcamp Cost Comparison and Cheaper Alternatives",
+       "domain": "youtube.com",
+       "position": 8
+      },
+      {
+       "url": "https://learn.org/affordable-degrees/free-coding-classes",
+       "title": "10 Free Coding Classes Online 2027 - Learn.org",
+       "domain": "learn.org",
+       "position": 9
+      },
+      {
+       "url": "https://www.reddit.com/r/learnprogramming/comments/19cw1i0/why_do_people_pay_for_programming_courses_when",
+       "title": "Why do people pay for programming courses when there ...",
+       "domain": "reddit.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 0,
+   "own_rate": 0.0,
+   "top_domains": [
+    [
+     "boot.dev",
+     1
+    ],
+    [
+     "codingphase.com",
+     1
+    ],
+    [
+     "coursereport.com",
+     1
+    ],
+    [
+     "modernagecoders.com",
+     1
+    ],
+    [
+     "telecomhall.net",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://codingphase.com/blog/best-affordable-coding-courses",
+    "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+    "https://www.boot.dev/blog/education/best-online-coding-courses-2026",
+    "https://www.coursereport.com/blog/online-coding-bootcamp-cost-comparison",
+    "https://www.telecomhall.net/t/the-best-online-coding-classes-and-programs-to-learn-to-code-for-free/20504"
+   ],
+   "own_retrieved_rank": null,
+   "retrieval_known": true,
+   "gap": {
+    "question": "What are the pricing options for free coding courses with optional upgrades?",
+    "own_url": "https://www.freecodecamp.org/news/free-courses-top-cs-universities/",
+    "own_is_fallback": false,
+    "own_features": {
+     "url": "https://www.freecodecamp.org/news/free-courses-top-cs-universities/",
+     "ok": true,
+     "error": null,
+     "word_count": 13835,
+     "direct_answer": false,
+     "stats_count": 118,
+     "question_headings": 0,
+     "headings_count": 7,
+     "has_list": true,
+     "has_table": false,
+     "outbound_links": 7,
+     "quotes": 1,
+     "schema_types": [
+      "Article"
+     ],
+     "modified": "2026-04-15",
+     "fresh": true,
+     "js_dependent": false
+    },
+    "winner_features": [
+     {
+      "url": "https://codingphase.com/blog/best-affordable-coding-courses",
+      "ok": true,
+      "error": null,
+      "word_count": 3386,
+      "direct_answer": false,
+      "stats_count": 21,
+      "question_headings": 8,
+      "headings_count": 19,
+      "has_list": true,
+      "has_table": false,
+      "outbound_links": 0,
+      "quotes": 3,
+      "schema_types": [
+       "BlogPosting",
+       "BreadcrumbList",
+       "FAQPage",
+       "Organization",
+       "Person",
+       "WebSite"
+      ],
+      "modified": "2026-09-24",
+      "fresh": true,
+      "js_dependent": false
+     },
+     {
+      "url": "https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students",
+      "ok": true,
+      "error": null,
+      "word_count": 5226,
+      "direct_answer": true,
+      "stats_count": 93,
+      "question_headings": 5,
+      "headings_count": 47,
+      "has_list": true,
+      "has_table": true,
+      "outbound_links": 1,
+      "quotes": 1,
+      "schema_types": [
+       "BlogPosting",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-09-23",
+      "fresh": true,
+      "js_dependent": false
+     },
+     {
+      "url": "https://www.boot.dev/blog/education/best-online-coding-courses-2026",
+      "ok": true,
+      "error": null,
+      "word_count": 4010,
+      "direct_answer": false,
+      "stats_count": 85,
+      "question_headings": 4,
+      "headings_count": 31,
+      "has_list": true,
+      "has_table": true,
+      "outbound_links": 18,
+      "quotes": 0,
+      "schema_types": [
+       "Article",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-10-09",
+      "fresh": true,
+      "js_dependent": false
+     }
+    ],
+    "gaps": [
+     {
+      "key": "direct_answer",
+      "label": "Answers the question in the first paragraph",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "stats",
+      "label": "Has 3+ specific numbers or stats",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "question_headings",
+      "label": "Uses question-style headings",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "fresh",
+      "label": "Updated in the last 12 months",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "lists_tables",
+      "label": "Uses lists or tables",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "sources",
+      "label": "Links out to 2+ other sources",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "quotes",
+      "label": "Includes quotes",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "depth",
+      "label": "In-depth (800+ words)",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "schema",
+      "label": "Has structured data (weak signal)",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     }
+    ]
+   }
+  },
+  {
+   "question": "Best free coding practice challenges for algorithm skills?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + openai/gpt-oss-120b)",
+     "question": "Best free coding practice challenges for algorithm skills?",
+     "answer": "**Top free sites for algorithm‑focused practice**\n\n| Platform | What you get (free) | Why it’s strong for algorithms |\n|----------|--------------------|--------------------------------|\n| **LeetCode** – free tier | 150+ algorithm problems, tag filters, “Explore” lists | Largest library of interview‑style questions; community solutions help you learn multiple approaches【1】 |\n| **HackerRank** | Unlimited algorithm challenges, structured “domains” (arrays, graphs, DP) | Good for progressive skill assessment and timed contests【1】 |\n| **Codewars** | Thousands of “kata” from 8 kyu (easy) to 1 kyu (hard) in 67 languages【1】【7】 | Gamified ranks keep you motivated; community solutions show idiomatic tricks |\n| **CodeChef** | 3 000+ practice problems sorted by difficulty (beginner to advanced)【2】【3】 | Strong emphasis on classic data‑structure/algorithm topics and regular contests |\n| **Exercism** | Mentored exercises for 82 languages【1】 | Pair‑programming style feedback helps solidify algorithmic thinking |\n| **Edabit** | 10 000+ challenges, difficulty ladder, instant feedback【3】【5】 | Very bite‑size problems ideal for daily warm‑ups |\n\n**Quick starter plan**  \n1. Warm up with easy kata on **Codewars** or **Edabit**.  \n2. Move to medium‑level lists on **HackerRank** or **CodeChef**.  \n3. Polish interview readiness on **LeetCode** (focus on “Top Interview Questions”).  \n\nAll five platforms are completely free to use, so you can mix them to cover breadth and depth of algorithm skills.",
+     "citations": [
+      {
+       "url": "https://scrimba.com/articles/best-coding-practice-platforms-and-challenge-websites-in-2026",
+       "title": "10 Best Coding Practice Platforms & Challenge Sites (2026)",
+       "domain": "scrimba.com",
+       "position": 1
+      },
+      {
+       "url": "https://www.codewars.com",
+       "title": "Codewars - Achieve mastery through coding practice and developer mentorship",
+       "domain": "codewars.com",
+       "position": 2
+      },
+      {
+       "url": "https://www.codechef.com/practice",
+       "title": "Online Coding Practice Problems & Challenges",
+       "domain": "codechef.com",
+       "position": 3
+      },
+      {
+       "url": "https://flatironschool.com/blog/best-websites-to-practice-coding-for-beginners",
+       "title": "11 Best Websites to Practice Coding for Beginners in 2025 | Flatiron School",
+       "domain": "flatironschool.com",
+       "position": 4
+      },
+      {
+       "url": "https://edabit.com/challenges",
+       "title": "17,000+ Coding Challenges for Beginners",
+       "domain": "edabit.com",
+       "position": 5
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://scrimba.com/articles/best-coding-practice-platforms-and-challenge-websites-in-2026",
+       "title": "10 Best Coding Practice Platforms & Challenge Sites (2026)",
+       "domain": "scrimba.com",
+       "position": 1
+      },
+      {
+       "url": "https://www.codechef.com/practice",
+       "title": "Online Coding Practice Problems & Challenges",
+       "domain": "codechef.com",
+       "position": 2
+      },
+      {
+       "url": "https://flatironschool.com/blog/best-websites-to-practice-coding-for-beginners",
+       "title": "11 Best Websites to Practice Coding for Beginners in 2025 | Flatiron School",
+       "domain": "flatironschool.com",
+       "position": 3
+      },
+      {
+       "url": "http://www.businessinsider.com/15-free-games-that-will-help-you-learn-how-to-code-2017-4?r=USu0026IR%3DTu0026IR%3DT",
+       "title": "15 Free Games That Will Help You Learn How to Code - Business Insider",
+       "domain": "businessinsider.com",
+       "position": 4
+      },
+      {
+       "url": "https://edabit.com/challenges",
+       "title": "17,000+ Coding Challenges for Beginners",
+       "domain": "edabit.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.cbinsights.com/company/karat-1/alternatives-competitors",
+       "title": "Top Karat Alternatives, Competitors",
+       "domain": "cbinsights.com",
+       "position": 6
+      },
+      {
+       "url": "https://www.codewars.com",
+       "title": "Codewars - Achieve mastery through coding practice and developer mentorship",
+       "domain": "codewars.com",
+       "position": 7
+      },
+      {
+       "url": "https://www.codingame.com",
+       "title": "Coding Games and Programming Challenges to Code Better",
+       "domain": "codingame.com",
+       "position": 8
+      },
+      {
+       "url": "https://www.w3schools.com/practice",
+       "title": "W3Schools Practice Coding Problems",
+       "domain": "w3schools.com",
+       "position": 9
+      },
+      {
+       "url": "https://www.yelp.com/topic/san-francisco-level-up-your-ai-coding-skills-with-github-copilot-exam-questions-2025-free-practice-included",
+       "title": "Level Up Your AI Coding Skills with GitHub-Copilot Exam Questions 2025 - Free Practice Included! | San Francisco - Yelp",
+       "domain": "yelp.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 0,
+   "own_rate": 0.0,
+   "top_domains": [
+    [
+     "codechef.com",
+     1
+    ],
+    [
+     "codewars.com",
+     1
+    ],
+    [
+     "edabit.com",
+     1
+    ],
+    [
+     "flatironschool.com",
+     1
+    ],
+    [
+     "scrimba.com",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://edabit.com/challenges",
+    "https://flatironschool.com/blog/best-websites-to-practice-coding-for-beginners",
+    "https://scrimba.com/articles/best-coding-practice-platforms-and-challenge-websites-in-2026",
+    "https://www.codechef.com/practice",
+    "https://www.codewars.com"
+   ],
+   "own_retrieved_rank": null,
+   "retrieval_known": true,
+   "gap": {
+    "question": "Best free coding practice challenges for algorithm skills?",
+    "own_url": "https://www.freecodecamp.org/news/improve-you-c-skills-by-coding-an-audio-plugin/",
+    "own_is_fallback": false,
+    "own_features": {
+     "url": "https://www.freecodecamp.org/news/improve-you-c-skills-by-coding-an-audio-plugin/",
+     "ok": true,
+     "error": null,
+     "word_count": 657,
+     "direct_answer": false,
+     "stats_count": 11,
+     "question_headings": 0,
+     "headings_count": 0,
+     "has_list": true,
+     "has_table": false,
+     "outbound_links": 2,
+     "quotes": 0,
+     "schema_types": [
+      "Article"
+     ],
+     "modified": "2025-05-06",
+     "fresh": false,
+     "js_dependent": false
+    },
+    "winner_features": [
+     {
+      "url": "https://edabit.com/challenges",
+      "ok": true,
+      "error": null,
+      "word_count": 1287,
+      "direct_answer": false,
+      "stats_count": 2,
+      "question_headings": 3,
+      "headings_count": 20,
+      "has_list": true,
+      "has_table": false,
+      "outbound_links": 0,
+      "quotes": 3,
+      "schema_types": [],
+      "modified": null,
+      "fresh": null,
+      "js_dependent": false
+     },
+     {
+      "url": "https://flatironschool.com/blog/best-websites-to-practice-coding-for-beginners",
+      "ok": true,
+      "error": null,
+      "word_count": 1714,
+      "direct_answer": false,
+      "stats_count": 7,
+      "question_headings": 0,
+      "headings_count": 17,
+      "has_list": true,
+      "has_table": false,
+      "outbound_links": 15,
+      "quotes": 0,
+      "schema_types": [],
+      "modified": "2025-05-15",
+      "fresh": false,
+      "js_dependent": false
+     },
+     {
+      "url": "https://scrimba.com/articles/best-coding-practice-platforms-and-challenge-websites-in-2026",
+      "ok": true,
+      "error": null,
+      "word_count": 2882,
+      "direct_answer": true,
+      "stats_count": 32,
+      "question_headings": 6,
+      "headings_count": 17,
+      "has_list": true,
+      "has_table": true,
+      "outbound_links": 7,
+      "quotes": 4,
+      "schema_types": [
+       "Article",
+       "BlogPosting",
+       "BreadcrumbList",
+       "FAQPage"
+      ],
+      "modified": "2026-08-06",
+      "fresh": true,
+      "js_dependent": false
+     }
+    ],
+    "gaps": [
+     {
+      "key": "direct_answer",
+      "label": "Answers the question in the first paragraph",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "stats",
+      "label": "Has 3+ specific numbers or stats",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "question_headings",
+      "label": "Uses question-style headings",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "fresh",
+      "label": "Updated in the last 12 months",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": false
+     },
+     {
+      "key": "lists_tables",
+      "label": "Uses lists or tables",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "sources",
+      "label": "Links out to 2+ other sources",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     },
+     {
+      "key": "quotes",
+      "label": "Includes quotes",
+      "winners_with": 2,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "depth",
+      "label": "In-depth (800+ words)",
+      "winners_with": 3,
+      "winners_total": 3,
+      "own_has": false,
+      "is_gap": true
+     },
+     {
+      "key": "schema",
+      "label": "Has structured data (weak signal)",
+      "winners_with": 1,
+      "winners_total": 3,
+      "own_has": true,
+      "is_gap": false
+     }
+    ]
+   }
+  },
+  {
+   "question": "How to stay motivated while learning to code for free?",
+   "runs": [
+    {
+     "engine": "open engine (Tavily search + qwen/qwen3.8-27b)",
+     "question": "How to stay motivated while learning to code for free?",
+     "answer": "Here are key strategies to stay motivated while learning to code for free:\n\n*   **Set Small, Achievable Goals:** Break large projects into manageable tasks and celebrate small wins, such as writing a simple calculator or creating a basic website [1][6][7]. Establishing weekly goals, like completing a specific lesson, helps keep you on track, so aim for comprehension rather than just completion [4].\n*   **Join a Community:** Surround yourself with other learners to boost motivation and get support. You can join online groups through Discord, Reddit, or bootcamp Slack channels [1][3]. Sharing progress and learning together can significantly help when energy is low [9].\n*   **Create a Consistent Routine:** Schedule regular times to code, even if it is just 10 minutes a day, to build small, consistent habits [4][2]. Treat coding as a fun activity rather than a daunting task to make it something you look forward to [4].\n*   **Eliminate Distractions:** Switch your phone to do-not-disturb, close unrelated browser windows, and avoid lyric-heavy music during study periods to maintain focus [2]. Removing specific time-wasters can also help create a better learning environment [5].\n*   **Keep Your \"Why\" Visible:** Write down your initial reasons for learning coding, such as career growth or skill expansion, and review this \"why\" statement when you feel burned out or uninspired [3].\n*   **Take Breaks:** Schedule regular breaks away from your computer and prioritize physical exercise to avoid burnout [3].\n\nFor free resources, freeCodeCamp offers numerous topics like HTML, CSS, and JavaScript for you to pick up and start learning immediately [2].",
+     "citations": [
+      {
+       "url": "https://www.facebook.com/groups/vibecodingforbeginners/posts/1273407137674521",
+       "title": "Any tips for staying motivated while learning to code?",
+       "domain": "facebook.com",
+       "position": 1
+      },
+      {
+       "url": "https://medium.com/@anamtaajmal903/how-to-stay-motivated-while-learning-programming-ecd4d5d26f91",
+       "title": "How to Stay Motivated While Learning Programming",
+       "domain": "medium.com",
+       "position": 2
+      },
+      {
+       "url": "https://www.facebook.com/groups/codingquestions/posts/1323438594724123",
+       "title": "How to stay motivated as a coder when energy is low?",
+       "domain": "facebook.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.codecademy.com/resources/blog/how-to-stay-motivated-learning-to-code",
+       "title": "How to Stay Motivated and Not Give Up When Learning to Code",
+       "domain": "codecademy.com",
+       "position": 4
+      },
+      {
+       "url": "https://www.techelevator.com/stay-motivated-while-learning-to-code",
+       "title": "How To Stay Motivated While Learning To Code - Tech Elevator",
+       "domain": "techelevator.com",
+       "position": 5
+      },
+      {
+       "url": "https://www.reddit.com/r/learnprogramming/comments/13flwmc/coding_101_how_to_keep_your_motivation_meter_high",
+       "title": "Coding 101: How to Keep Your Motivation Meter High",
+       "domain": "reddit.com",
+       "position": 6
+      },
+      {
+       "url": "https://www.freecodecamp.org/news/how-to-stay-motivated-to-keep-learning-to-code",
+       "title": "How to Stay Motivated to Keep Learning to Code",
+       "domain": "freecodecamp.org",
+       "position": 7
+      },
+      {
+       "url": "https://dailypythonprojects.substack.com/p/how-to-stay-motivated-when-learning",
+       "title": "How to Stay Motivated When Learning to Code",
+       "domain": "substack.com",
+       "position": 8
+      }
+     ],
+     "search_queries": [],
+     "error": null,
+     "simulated": false,
+     "retrieved": [
+      {
+       "url": "https://www.facebook.com/groups/vibecodingforbeginners/posts/1273407137674521",
+       "title": "Any tips for staying motivated while learning to code?",
+       "domain": "facebook.com",
+       "position": 1
+      },
+      {
+       "url": "https://www.freecodecamp.org/news/how-to-stay-motivated-to-keep-learning-to-code",
+       "title": "How to Stay Motivated to Keep Learning to Code",
+       "domain": "freecodecamp.org",
+       "position": 2
+      },
+      {
+       "url": "https://www.techelevator.com/stay-motivated-while-learning-to-code",
+       "title": "How To Stay Motivated While Learning To Code - Tech Elevator",
+       "domain": "techelevator.com",
+       "position": 3
+      },
+      {
+       "url": "https://www.codecademy.com/resources/blog/how-to-stay-motivated-learning-to-code",
+       "title": "How to Stay Motivated and Not Give Up When Learning to Code",
+       "domain": "codecademy.com",
+       "position": 4
+      },
+      {
+       "url": "https://dailypythonprojects.substack.com/p/how-to-stay-motivated-when-learning",
+       "title": "How to Stay Motivated When Learning to Code",
+       "domain": "substack.com",
+       "position": 5
+      },
+      {
+       "url": "https://medium.com/@anamtaajmal903/how-to-stay-motivated-while-learning-programming-ecd4d5d26f91",
+       "title": "How to Stay Motivated While Learning Programming",
+       "domain": "medium.com",
+       "position": 6
+      },
+      {
+       "url": "https://www.facebook.com/groups/codingquestions/posts/1323438594724123",
+       "title": "How to stay motivated as a coder when energy is low?",
+       "domain": "facebook.com",
+       "position": 7
+      },
+      {
+       "url": "https://www.youtube.com/watch?v=44en4a5fPZw",
+       "title": "How To Stay Motivated When Learning to Code",
+       "domain": "youtube.com",
+       "position": 8
+      },
+      {
+       "url": "https://www.reddit.com/r/learnprogramming/comments/13flwmc/coding_101_how_to_keep_your_motivation_meter_high",
+       "title": "Coding 101: How to Keep Your Motivation Meter High",
+       "domain": "reddit.com",
+       "position": 9
+      },
+      {
+       "url": "https://www.quora.com/How-do-you-keep-motivated-when-learning-to-code",
+       "title": "How do you keep motivated when learning to code?",
+       "domain": "quora.com",
+       "position": 10
+      }
+     ]
+    }
+   ],
+   "ok_runs": 1,
+   "own_cited_runs": 1,
+   "own_rate": 1.0,
+   "top_domains": [
+    [
+     "codecademy.com",
+     1
+    ],
+    [
+     "facebook.com",
+     1
+    ],
+    [
+     "freecodecamp.org",
+     1
+    ],
+    [
+     "medium.com",
+     1
+    ],
+    [
+     "reddit.com",
+     1
+    ],
+    [
+     "substack.com",
+     1
+    ],
+    [
+     "techelevator.com",
+     1
+    ]
+   ],
+   "top_urls": [
+    "https://dailypythonprojects.substack.com/p/how-to-stay-motivated-when-learning",
+    "https://medium.com/@anamtaajmal903/how-to-stay-motivated-while-learning-programming-ecd4d5d26f91",
+    "https://www.codecademy.com/resources/blog/how-to-stay-motivated-learning-to-code",
+    "https://www.facebook.com/groups/codingquestions/posts/1323438594724123",
+    "https://www.facebook.com/groups/vibecodingforbeginners/posts/1273407137674521",
+    "https://www.freecodecamp.org/news/how-to-stay-motivated-to-keep-learning-to-code",
+    "https://www.reddit.com/r/learnprogramming/comments/13flwmc/coding_101_how_to_keep_your_motivation_meter_high",
+    "https://www.techelevator.com/stay-motivated-while-learning-to-code"
+   ],
+   "own_retrieved_rank": 2,
+   "retrieval_known": true,
+   "gap": null
+  }
+ ],
+ "technical": [
+  {
+   "id": "robots-search-bots",
+   "label": "AI search crawlers",
+   "status": "pass",
+   "detail": "Search crawlers (Google, Bing, ChatGPT, Perplexity, Claude) can read the homepage.",
+   "url": "https://freecodecamp.org/robots.txt"
+  },
+  {
+   "id": "robots-training-bots",
+   "label": "AI training crawlers",
+   "status": "pass",
+   "detail": "AI training crawlers are allowed.",
+   "url": "https://freecodecamp.org/robots.txt"
+  },
+  {
+   "id": "sitemap",
+   "label": "XML sitemap",
+   "status": "pass",
+   "detail": "Sitemap found with 2000 page URL(s).",
+   "url": "https://www.freecodecamp.org/news/sitemap.xml"
+  },
+  {
+   "id": "status",
+   "label": "Homepage: loads",
+   "status": "pass",
+   "detail": "HTTP 200.",
+   "url": "https://freecodecamp.org/"
+  },
+  {
+   "id": "noindex",
+   "label": "Homepage: indexable",
+   "status": "pass",
+   "detail": "No noindex found.",
+   "url": "https://freecodecamp.org/"
+  },
+  {
+   "id": "canonical",
+   "label": "Homepage: canonical",
+   "status": "warn",
+   "detail": "No canonical tag. Add one that points to this page's own URL.",
+   "url": "https://freecodecamp.org/"
+  },
+  {
+   "id": "js-content",
+   "label": "Homepage: readable without JavaScript",
+   "status": "fail",
+   "detail": "Only 0 words are in the HTML. The rest seems to load with JavaScript, and most AI crawlers don't run JavaScript.",
+   "url": "https://freecodecamp.org/"
+  },
+  {
+   "id": "page-ok",
+   "label": "Page /news/learn-web-development-for-free/: all checks pass",
+   "status": "pass",
+   "detail": "Loads, indexable, canonical to itself, readable without JavaScript.",
+   "url": "https://www.freecodecamp.org/news/learn-web-development-for-free/"
+  },
+  {
+   "id": "page-ok",
+   "label": "Page /news/master-full-stack-mobile-development-with-react-native/: all checks pass",
+   "status": "pass",
+   "detail": "Loads, indexable, canonical to itself, readable without JavaScript.",
+   "url": "https://www.freecodecamp.org/news/master-full-stack-mobile-development-with-react-native/"
+  },
+  {
+   "id": "page-ok",
+   "label": "Page /news/how-to-become-a-web-developer-beginners-guide/: all checks pass",
+   "status": "pass",
+   "detail": "Loads, indexable, canonical to itself, readable without JavaScript.",
+   "url": "https://www.freecodecamp.org/news/how-to-become-a-web-developer-beginners-guide/"
+  },
+  {
+   "id": "page-ok",
+   "label": "Page /news/free-courses-top-cs-universities/: all checks pass",
+   "status": "pass",
+   "detail": "Loads, indexable, canonical to itself, readable without JavaScript.",
+   "url": "https://www.freecodecamp.org/news/free-courses-top-cs-universities/"
+  },
+  {
+   "id": "page-ok",
+   "label": "Page /news/improve-you-c-skills-by-coding-an-audio-plugin/: all checks pass",
+   "status": "pass",
+   "detail": "Loads, indexable, canonical to itself, readable without JavaScript.",
+   "url": "https://www.freecodecamp.org/news/improve-you-c-skills-by-coding-an-audio-plugin/"
+  }
+ ],
+ "fixes": [
+  {
+   "rule_id": "retrieval:not-found",
+   "priority": "high",
+   "title": "Get into the search results first",
+   "detail": "For these questions your site wasn't in the search results the AI read, and an AI can't cite a page it never sees. This is classic SEO work: a page that targets the question, internal links to it, and mentions or links from other sites.",
+   "evidence": "Not in the top results for: “Free web development tutorials vs paid bootcamps comparison?”; “Which free coding resources cover full-stack development?”; “How long does it take to become a web developer using free resources?”; “What are the pricing options for free coding courses with optional upgrades?”; “Best free coding practice challenges for algorithm skills?”",
+   "impact": 5
+  },
+  {
+   "rule_id": "tech:js-content",
+   "priority": "high",
+   "title": "Make content readable without JavaScript",
+   "detail": "Only 0 words are in the HTML. The rest seems to load with JavaScript, and most AI crawlers don't run JavaScript.",
+   "evidence": "Affects: https://freecodecamp.org/",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:depth",
+   "priority": "medium",
+   "title": "In-depth (800+ words): missing on https://www.freecodecamp.org/news/master-full-stack-mobile-development-with-react-native/",
+   "detail": "Cover the topic in more depth: use cases, how it works, pricing, FAQs.",
+   "evidence": "3 of 3 pages AI engines cited instead have this. Questions: “Which free coding resources cover full-stack development?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:depth",
+   "priority": "medium",
+   "title": "In-depth (800+ words): missing on https://www.freecodecamp.org/news/improve-you-c-skills-by-coding-an-audio-plugin/",
+   "detail": "Cover the topic in more depth: use cases, how it works, pricing, FAQs.",
+   "evidence": "3 of 3 pages AI engines cited instead have this. Questions: “Best free coding practice challenges for algorithm skills?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:fresh",
+   "priority": "medium",
+   "title": "Updated in the last 12 months: missing on https://www.freecodecamp.org/news/learn-web-development-for-free/",
+   "detail": "Update the page and show the date (visible 'Updated on' and dateModified).",
+   "evidence": "3 of 3 pages AI engines cited instead have this. Questions: “Free web development tutorials vs paid bootcamps comparison?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:fresh",
+   "priority": "medium",
+   "title": "Updated in the last 12 months: missing on https://www.freecodecamp.org/news/how-to-become-a-web-developer-beginners-guide/",
+   "detail": "Update the page and show the date (visible 'Updated on' and dateModified).",
+   "evidence": "2 of 2 pages AI engines cited instead have this. Questions: “How long does it take to become a web developer using free resources?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:question_headings",
+   "priority": "medium",
+   "title": "Uses question-style headings: missing on https://www.freecodecamp.org/news/master-full-stack-mobile-development-with-react-native/",
+   "detail": "Use the questions buyers ask as H2/H3 headings, each followed by a direct answer.",
+   "evidence": "2 of 3 pages AI engines cited instead have this. Questions: “Which free coding resources cover full-stack development?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:question_headings",
+   "priority": "medium",
+   "title": "Uses question-style headings: missing on https://www.freecodecamp.org/news/free-courses-top-cs-universities/",
+   "detail": "Use the questions buyers ask as H2/H3 headings, each followed by a direct answer.",
+   "evidence": "3 of 3 pages AI engines cited instead have this. Questions: “What are the pricing options for free coding courses with optional upgrades?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:question_headings",
+   "priority": "medium",
+   "title": "Uses question-style headings: missing on https://www.freecodecamp.org/news/improve-you-c-skills-by-coding-an-audio-plugin/",
+   "detail": "Use the questions buyers ask as H2/H3 headings, each followed by a direct answer.",
+   "evidence": "2 of 3 pages AI engines cited instead have this. Questions: “Best free coding practice challenges for algorithm skills?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "content:quotes",
+   "priority": "medium",
+   "title": "Includes quotes: missing on https://www.freecodecamp.org/news/improve-you-c-skills-by-coding-an-audio-plugin/",
+   "detail": "Add a quote from an expert or customer, with their name and role.",
+   "evidence": "2 of 3 pages AI engines cited instead have this. Questions: “Best free coding practice challenges for algorithm skills?”",
+   "impact": 1
+  },
+  {
+   "rule_id": "tech:canonical",
+   "priority": "medium",
+   "title": "Fix canonical tags",
+   "detail": "No canonical tag. Add one that points to this page's own URL.",
+   "evidence": "Affects: https://freecodecamp.org/",
+   "impact": 1
+  }
+ ],
+ "error": null
+}

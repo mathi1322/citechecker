@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+{% block title %}{{ r.domain }}: AI citation report · CiteCheck{% endblock %}
+{% block content %}
+<section class="report-head">
+  <p class="eyebrow">AI citation report</p>
+  <h1>{{ r.domain }}</h1>
+  <p class="meta">{{ r.created_at.strftime("%d %b %Y, %H:%M UTC") }} · {{ r.engine or "AI engine" }} · {{ r.questions|length }} question{{ "s" if r.questions|length != 1 }} × {{ r.runs_per_question }} run{{ "s" if r.runs_per_question != 1 }}
+    {% if r.simulated %}<span class="tag warn">simulated answers</span>{% endif %}</p>
+</section>
+
+{% if r.status in ("queued", "running") %}
+<section class="card" id="progress" data-report-id="{{ r.id }}">
+  <p id="progress-msg">{{ r.message or "Starting…" }}</p>
+  <div class="bar"><span id="progress-bar" style="width: {{ (r.progress * 100)|round|int }}%"></span></div>
+  <p class="hint">This page updates by itself. Reports take 1–3 minutes.</p>
+</section>
+{% elif r.status == "error" %}
+<section class="card error" role="alert"><h2>The report couldn't finish</h2><p>{{ r.error }}</p><p><a class="btn" href="/">Try again</a></p></section>
+{% else %}
+
+<section class="score-row">
+  <div class="stat">
+    <span class="stat-label">Visibility score</span>
+    <span class="stat-value" id="score">{{ r.visibility_score|round|int }}<small>/100</small></span>
+    <span class="stat-sub">share of AI answers that cite you</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Questions where you're cited</span>
+    <span class="stat-value">{{ r.questions_cited }}<small> of {{ r.question_results|length }}</small></span>
+    <span class="stat-sub">in at least one run</span>
+  </div>
+  {% if r.questions_retrieved is not none %}
+  <div class="stat">
+    <span class="stat-label">Found by the AI's search</span>
+    <span class="stat-value" id="retrieved">{{ r.questions_retrieved }}<small> of {{ r.question_results|length }}</small></span>
+    <span class="stat-sub">questions where you were in the results it read</span>
+  </div>
+  {% endif %}
+  {% set memory_ok = r.memory|selectattr("mentioned", "ne", none)|list %}
+  {% if memory_ok %}
+  <div class="stat">
+    <span class="stat-label">Named from memory</span>
+    <span class="stat-value" id="memory">{{ memory_ok|selectattr("mentioned")|list|length }}<small> of {{ memory_ok|length }}</small></span>
+    <span class="stat-sub">answers with no web search</span>
+  </div>
+  {% endif %}
+  <div class="stat">
+    <span class="stat-label">Fixes found</span>
+    <span class="stat-value">{{ r.fixes|length }}</span>
+    <span class="stat-sub">{{ r.fixes|selectattr("priority", "equalto", "high")|list|length }} high priority</span>
+  </div>
+</section>
+
+<section>
+  <h2>What to fix, in order</h2>
+  {% if not r.fixes %}<p class="hint">No fixes found.</p>{% endif %}
+  <ol class="fixes">
+  {% for f in r.fixes %}
+    <li class="fix">
+      <span class="tag {{ f.priority }}">{{ f.priority }}</span>
+      <div><strong>{{ f.title }}</strong><p>{{ f.detail }}</p>{% if f.evidence %}<p class="evidence">{{ f.evidence }}</p>{% endif %}</div>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+
+<section>
+  <h2>Who AI engines cite</h2>
+  <p class="hint">Share of answers that cite each site, across all questions and runs.</p>
+  <div class="table-wrap"><table class="sov">
+    <thead><tr><th>Site</th><th>Cited in</th><th class="num">Share of citations</th><th class="num">Avg. position</th></tr></thead>
+    <tbody>
+    {% for s in r.domain_stats[:15] %}
+      <tr class="{{ 'own' if s.is_own else '' }}">
+        <td>{{ s.domain }} {% if s.is_own %}<span class="tag own">you</span>{% elif s.domain in r.competitors %}<span class="tag">competitor</span>{% elif s.is_third_party %}<span class="tag muted">third-party</span>{% endif %}</td>
+        <td><div class="meter"><span style="width: {{ (s.citation_rate * 100)|round|int }}%"></span></div><span class="meter-label">{{ s.citation_rate|pct }}</span></td>
+        <td class="num">{{ s.share_of_voice|pct }}</td>
+        <td class="num">{{ s.avg_position if s.avg_position is not none else "–" }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>Question by question</h2>
+  {% for qr in r.question_results %}
+  <details class="question">
+    <summary><span class="q">{{ qr.question }}</span>
+      <span class="tag {{ 'pass' if qr.own_cited_runs else 'fail' }}">{% if qr.own_rate is none %}no answer{% else %}cited {{ qr.own_cited_runs }}/{{ qr.ok_runs }}{% endif %}</span></summary>
+    <div class="q-body">
+      {% if qr.retrieval_known %}<p><strong>In the search results the AI read:</strong>
+        {% if qr.own_retrieved_rank %}yes, #{{ qr.own_retrieved_rank }}{% if not qr.own_cited_runs %}, but it cited others{% endif %}{% else %}<span class="tag fail">not in the results</span>{% endif %}</p>{% endif %}
+      <p><strong>Most cited:</strong> {% for d, n in qr.top_domains[:6] %}{{ d }} ({{ n }}){% if not loop.last %}, {% endif %}{% else %}nothing{% endfor %}</p>
+      {% set errors = qr.runs|selectattr("error")|list %}
+      {% if errors %}<p class="evidence">{{ errors|length }} run(s) failed: {{ errors[0].error }}</p>{% endif %}
+      {% if qr.gap %}
+        <p><strong>Your closest page:</strong> {% if qr.gap.own_url %}<a href="{{ qr.gap.own_url }}" rel="nofollow noopener" target="_blank">{{ qr.gap.own_url }}</a>{% endif %}
+          {% if qr.gap.own_is_fallback %}<span class="tag warn">no matching page, so we used the homepage</span>{% endif %}</p>
+        {% if qr.gap.winner_features %}
+        <div class="table-wrap"><table class="gap">
+          <thead><tr><th>What cited pages have</th><th class="num">Cited pages</th><th class="num">Yours</th></tr></thead>
+          <tbody>{% for g in qr.gap.gaps %}
+            <tr class="{{ 'is-gap' if g.is_gap else '' }}"><td>{{ g.label }}</td><td class="num">{{ g.winners_with }}/{{ g.winners_total }}</td>
+              <td class="num">{% if g.own_has is none %}?{% elif g.own_has %}✓{% else %}✗{% endif %}</td></tr>
+          {% endfor %}</tbody>
+        </table></div>
+        {% elif r.simulated %}<p class="hint">Cited pages aren't analysed in simulated mode.</p>{% endif %}
+      {% endif %}
+      {% for run in qr.runs if run.ok %}{% if loop.first %}
+        <details class="answer"><summary>Show the AI's answer (run 1)</summary><p class="answer-text">{{ run.answer }}</p>
+          <ol class="sources">{% for c in run.citations %}<li><a href="{{ c.url }}" rel="nofollow noopener" target="_blank">{{ c.title or c.domain }}</a> <span class="muted">{{ c.domain }}</span></li>{% endfor %}</ol>
+        </details>
+      {% endif %}{% endfor %}
+    </div>
+  </details>
+  {% endfor %}
+</section>
+
+{% if r.memory %}
+<section>
+  <h2>What the AI knows about you without searching</h2>
+  <p class="hint">AI assistants often answer from memory. We asked {{ r.memory[0].model }} with no web search and checked whether it named {{ r.domain }}.</p>
+  {% for m in r.memory %}
+  <details class="question">
+    <summary><span class="q">{{ m.question }}</span>
+      <span class="tag {{ 'pass' if m.mentioned else ('info' if m.mentioned is none else 'fail') }}">{% if m.mentioned is none %}failed{% elif m.mentioned %}named you{% else %}not named{% endif %}</span></summary>
+    <div class="q-body">{% if m.error %}<p class="evidence">{{ m.error }}</p>{% else %}<p class="answer-text">{{ m.answer }}</p>{% endif %}</div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section>
+  <h2>Can AI crawlers read your site?</h2>
+  <ul class="checks">
+  {% for c in r.technical %}
+    <li><span class="tag {{ c.status }}">{{ c.status }}</span> <strong>{{ c.label }}</strong> {{ c.detail }}{% if c.url and c.id == "page-ok" %} <a class="muted" href="{{ c.url }}" rel="nofollow noopener" target="_blank">open</a>{% endif %}</li>
+  {% endfor %}
+  </ul>
+</section>
+
+{% if history %}
+<section>
+  <h2>Earlier reports for {{ r.domain }}</h2>
+  <ul class="history">{% for h in history[:10] %}
+    <li>{{ h.created_at.strftime("%d %b %Y") }} · score {{ h.visibility_score|round|int if h.visibility_score is not none else "–" }}
+      · <a href="/reports/{{ h.id }}">open</a> · <a href="/compare?a={{ h.id }}&amp;b={{ r.id }}">compare with this one</a></li>
+  {% endfor %}</ul>
+</section>
+{% endif %}
+
+<section class="card">
+  <h2>How to read this</h2>
+  <p>{% if r.runs_per_question > 1 %}AI answers change from run to run, so each question is asked {{ r.runs_per_question }} times.{% else %}Each question is asked once: the search results behind the answer barely change between runs.{% endif %}
+    {% if r.engine.startswith("open engine") %}Answers come from CiteCheck's open engine: Tavily web search plus a free AI model that cites the results it uses. It works the way AI search engines do, but it is not ChatGPT or Google; use "Paste an AI answer" to check those directly.{% endif %}
+    Technical fixes are certain: if crawlers can't read a page, it can't be cited. Content fixes are patterns found in pages that did get cited, not guarantees. Make the changes, then run a new report and compare the two.</p>
+</section>
+{% endif %}
+{% endblock %}

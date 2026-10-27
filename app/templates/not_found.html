@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Not found · CiteCheck{% endblock %}
+{% block content %}
+<section class="card error">
+  <h1>Not found</h1>
+  <p>{{ message or "That report doesn't exist. It may have been removed when the demo server restarted." }}</p>
+  <p><a class="btn" href="/">Run a new check</a></p>
+</section>
+{% endblock %}

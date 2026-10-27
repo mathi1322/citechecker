@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}CiteCheck: are AI answers citing you?{% endblock %}</title>
+  <meta name="description" content="Check whether ChatGPT, Perplexity and Google's AI search cite your website, who they cite instead, and what to fix.">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">Cite<span>Check</span></a>
+    <nav><a href="/">New check</a>{% if has_demo %} <a href="/demo">Example report</a>{% endif %}</nav>
+  </header>
+  {% if demo_mode %}
+  <div class="banner" role="status">Demo mode: no AI key is configured, so AI answers are <strong>simulated</strong>. The site checks are real.</div>
+  {% endif %}
+  <main class="wrap">{% block content %}{% endblock %}</main>
+  <footer class="foot">CiteCheck · results come from live AI answers and vary run to run{% if source_url %} · <a href="{{ source_url }}">source code</a>{% endif %}</footer>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

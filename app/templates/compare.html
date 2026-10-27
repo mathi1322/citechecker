@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ c.domain }}: before / after · CiteCheck{% endblock %}
+{% block content %}
+<section class="report-head">
+  <p class="eyebrow">Before / after</p>
+  <h1>{{ c.domain }}</h1>
+  <p class="meta"><a href="/reports/{{ c.before_id }}">Before report</a> → <a href="/reports/{{ c.after_id }}">After report</a></p>
+</section>
+<section class="score-row">
+  <div class="stat"><span class="stat-label">Before</span><span class="stat-value">{{ c.before_score|round|int if c.before_score is not none else "–" }}</span></div>
+  <div class="stat"><span class="stat-label">After</span><span class="stat-value">{{ c.after_score|round|int if c.after_score is not none else "–" }}</span></div>
+  <div class="stat"><span class="stat-label">Change</span>
+    <span class="stat-value {{ 'up' if c.score_change and c.score_change > 0 else ('down' if c.score_change and c.score_change < 0 else '') }}" id="score-change">
+      {% if c.score_change is none %}–{% else %}{{ "%+.0f"|format(c.score_change) }}{% endif %}</span></div>
+</section>
+<section>
+  <h2>Per question</h2>
+  {% if not c.questions %}<p class="hint">The two reports have no questions in common. Use the same questions to compare fairly.</p>{% endif %}
+  <div class="table-wrap"><table>
+    <thead><tr><th>Question</th><th class="num">Before</th><th class="num">After</th><th class="num">Change</th></tr></thead>
+    <tbody>{% for q in c.questions %}
+      <tr><td>{{ q.question }}</td><td class="num">{{ q.before|pct }}</td><td class="num">{{ q.after|pct }}</td>
+        <td class="num">{% if q.change is none %}–{% else %}{{ "%+.0f"|format(q.change * 100) }} pts{% endif %}</td></tr>
+    {% endfor %}</tbody>
+  </table></div>
+</section>
+<section class="two-col">
+  <div><h2>Fixed since before</h2><ul>{% for t in c.fixed %}<li>{{ t }}</li>{% else %}<li class="muted">Nothing yet</li>{% endfor %}</ul></div>
+  <div><h2>New issues</h2><ul>{% for t in c.new_issues %}<li>{{ t }}</li>{% else %}<li class="muted">None</li>{% endfor %}</ul></div>
+</section>
+{% endblock %}
